@@ -170,7 +170,7 @@ def render_html(
       </article>
     </section>
 
-    <footer class="controls">
+    <footer class="controls controls-collapsed">
       <button class="controls-peek" id="controlsPeek" type="button" aria-label="{controls_aria}">⌃</button>
       <button class="nav-button" id="prevButton" type="button" aria-label="{previous_label}">{previous_label}</button>
       <div class="audio-tools">
@@ -212,6 +212,7 @@ def render_html(
     const playButton = $('#playButton');
     const autoAdvance = $('#autoAdvance');
     const audioTime = $('#audioTime');
+    let controlsAutoHideTimer = 0;
 
     function escapeHtml(value) {{
       return value.replace(/[&<>"]/g, (char) => ({{
@@ -264,6 +265,13 @@ def render_html(
 
     function showControls() {{
       controls.classList.remove('controls-collapsed');
+      scheduleControlsAutoHide();
+    }}
+
+    function scheduleControlsAutoHide() {{
+      window.clearTimeout(controlsAutoHideTimer);
+      if (!isMobileLayout()) return;
+      controlsAutoHideTimer = window.setTimeout(hideControls, 4200);
     }}
 
     function hideControls() {{
@@ -315,23 +323,25 @@ def render_html(
       updatePlayButton();
       if (options.play || wasPlaying) {{
         playCurrentAudio();
-      }} else {{
+      }} else if (options.keepControls) {{
         showControls();
+      }} else {{
+        hideControls();
       }}
     }}
 
     $('#prevButton').addEventListener('click', () => {{
       showControls();
-      render(state.index - 1);
+      render(state.index - 1, {{ keepControls: true }});
     }});
     $('#nextButton').addEventListener('click', () => {{
       showControls();
-      render(state.index + 1);
+      render(state.index + 1, {{ keepControls: true }});
     }});
     controlsPeek.addEventListener('click', showControls);
     sceneSelect.addEventListener('change', (event) => {{
       showControls();
-      render(Number(event.target.value));
+      render(Number(event.target.value), {{ keepControls: true }});
     }});
     playButton.addEventListener('click', () => {{
       showControls();
@@ -349,11 +359,12 @@ def render_html(
       window.clearTimeout(scrollTimer);
       const currentY = window.scrollY;
       const scrollingDown = currentY > lastScrollY + 8;
-      const scrollingUp = currentY < lastScrollY - 8;
-      if (currentY < 40 || scrollingUp) {{
+      if (currentY < 40) {{
         showControls();
       }} else if (scrollingDown) {{
-        scrollTimer = window.setTimeout(hideControls, 120);
+        scrollTimer = window.setTimeout(hideControls, 80);
+      }} else {{
+        hideControls();
       }}
       lastScrollY = currentY;
     }}, {{ passive: true }});
