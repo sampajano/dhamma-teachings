@@ -137,6 +137,7 @@ def render_html(
     total = f"{len(scenes):02d}"
     first_scene = f"{scene_label}{scenes[0]['number']}{scene_suffix}"
     controls_aria = "显示控制条" if language.startswith("zh") else "Show controls"
+    controls_hide_aria = "隐藏控制条" if language.startswith("zh") else "Hide controls"
     style = _read_style()
     return f"""<!doctype html>
 <html lang="{language}">
@@ -213,6 +214,10 @@ def render_html(
     const autoAdvance = $('#autoAdvance');
     const audioTime = $('#audioTime');
     let controlsAutoHideTimer = 0;
+    const controlsLabels = {{
+      show: {json.dumps(controls_aria, ensure_ascii=False)},
+      hide: {json.dumps(controls_hide_aria, ensure_ascii=False)}
+    }};
 
     function escapeHtml(value) {{
       return value.replace(/[&<>"]/g, (char) => ({{
@@ -268,8 +273,14 @@ def render_html(
       return window.innerHeight + window.scrollY >= page.scrollHeight - 90;
     }}
 
+    function setControlsCollapsed(collapsed) {{
+      controls.classList.toggle('controls-collapsed', collapsed);
+      controlsPeek.textContent = collapsed ? '⌃' : '⌄';
+      controlsPeek.setAttribute('aria-label', collapsed ? controlsLabels.show : controlsLabels.hide);
+    }}
+
     function showControls() {{
-      controls.classList.remove('controls-collapsed');
+      setControlsCollapsed(false);
       scheduleControlsAutoHide();
     }}
 
@@ -282,7 +293,7 @@ def render_html(
 
     function hideControls() {{
       if (!isMobileLayout() || document.activeElement.closest?.('.controls')) return;
-      controls.classList.add('controls-collapsed');
+      setControlsCollapsed(true);
     }}
 
     function playCurrentAudio() {{
@@ -344,7 +355,14 @@ def render_html(
       showControls();
       render(state.index + 1, {{ keepControls: true }});
     }});
-    controlsPeek.addEventListener('click', showControls);
+    controlsPeek.addEventListener('click', () => {{
+      const collapsed = controls.classList.contains('controls-collapsed');
+      if (collapsed) {{
+        showControls();
+      }} else {{
+        setControlsCollapsed(true);
+      }}
+    }});
     sceneSelect.addEventListener('change', (event) => {{
       showControls();
       render(Number(event.target.value), {{ keepControls: true }});

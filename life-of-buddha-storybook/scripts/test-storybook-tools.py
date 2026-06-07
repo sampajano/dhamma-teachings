@@ -101,6 +101,9 @@ def test_mobile_reader_controls_can_yield_to_story_text():
     assert "controls-collapsed" in html
     assert "controlsPeek" in html
     assert "showControls" in html
+    assert "setControlsCollapsed" in html
+    assert "controlsPeek.textContent = collapsed ? '⌃' : '⌄';" in html
+    assert "隐藏控制条" in html
     assert ".reader {\n        height: auto;" in html
     assert "padding-bottom: calc(168px + env(safe-area-inset-bottom));" in html
     assert ".jump {\n        display: grid;\n        grid-template-columns: auto minmax(0, 1fr);" in html

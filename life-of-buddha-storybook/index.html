@@ -958,6 +958,10 @@
     const autoAdvance = $('#autoAdvance');
     const audioTime = $('#audioTime');
     let controlsAutoHideTimer = 0;
+    const controlsLabels = {
+      show: 'Show controls',
+      hide: 'Hide controls'
+    };
 
     function escapeHtml(value) {
       return value.replace(/[&<>"]/g, (char) => ({
@@ -1009,8 +1013,14 @@
       return window.innerHeight + window.scrollY >= page.scrollHeight - 90;
     }
 
+    function setControlsCollapsed(collapsed) {
+      controls.classList.toggle('controls-collapsed', collapsed);
+      controlsPeek.textContent = collapsed ? '⌃' : '⌄';
+      controlsPeek.setAttribute('aria-label', collapsed ? controlsLabels.show : controlsLabels.hide);
+    }
+
     function showControls() {
-      controls.classList.remove('controls-collapsed');
+      setControlsCollapsed(false);
       scheduleControlsAutoHide();
     }
 
@@ -1023,7 +1033,7 @@
 
     function hideControls() {
       if (!isMobileLayout() || document.activeElement.closest?.('.controls')) return;
-      controls.classList.add('controls-collapsed');
+      setControlsCollapsed(true);
     }
 
     function playCurrentAudio() {
@@ -1085,7 +1095,14 @@
       showControls();
       render(state.index + 1, { keepControls: true });
     });
-    controlsPeek.addEventListener('click', showControls);
+    controlsPeek.addEventListener('click', () => {
+      const collapsed = controls.classList.contains('controls-collapsed');
+      if (collapsed) {
+        showControls();
+      } else {
+        setControlsCollapsed(true);
+      }
+    });
     sceneSelect.addEventListener('change', (event) => {
       showControls();
       render(Number(event.target.value), { keepControls: true });
