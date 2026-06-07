@@ -54,6 +54,11 @@ def test_parse_english_and_chinese_scenes():
     assert "Taṇhā (craving or thirst)" in english[24]["paragraphs"][0]
     assert "Aratī (discontent or aversion)" in english[24]["paragraphs"][0]
     assert "Rāgā (passion or lust)" in english[24]["paragraphs"][0]
+    assert "resolved not to teach" in english[27]["paragraphs"][0]
+    assert "Brahmā Sahampati" in english[27]["paragraphs"][1]
+    assert "world would be lost" in english[27]["paragraphs"][1]
+    assert "eye of a Buddha" in english[27]["paragraphs"][2]
+    assert "lotuses in a pond" in english[27]["paragraphs"][2]
     assert "拘舍婆提" in chinese[40]["paragraphs"][2]
     assert "转轮圣王大善见王" in chinese[40]["paragraphs"][2]
     assert "自己正是那位转轮圣王" in chinese[40]["paragraphs"][2]
@@ -63,6 +68,11 @@ def test_parse_english_and_chinese_scenes():
     assert "Taṇhā（渴爱、贪求）" in chinese[24]["paragraphs"][0]
     assert "Aratī（不乐、不满）" in chinese[24]["paragraphs"][0]
     assert "Rāgā（贪染、欲爱）" in chinese[24]["paragraphs"][0]
+    assert "决定不说法" in chinese[27]["paragraphs"][0]
+    assert "梵天娑婆主" in chinese[27]["paragraphs"][1]
+    assert "世间将失去机会" in chinese[27]["paragraphs"][1]
+    assert "以佛眼观察世间" in chinese[27]["paragraphs"][2]
+    assert "池中的莲花" in chinese[27]["paragraphs"][2]
 
 
 def test_english_audio_filenames_keep_existing_ascii_style():

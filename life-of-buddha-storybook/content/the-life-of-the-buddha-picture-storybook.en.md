@@ -255,11 +255,11 @@ Nature itself seemed to protect the newly awakened Blessed One, allowing him to 
 ## Scene 28 - Brahmā Requests the Teaching
 ![Buddha (May) - 028 - Brahmā Requests the Teaching](../assets/images/Buddha%20%28May%29%20-%20028%20-%20Brahma%20Requests%20the%20Teaching.png)
 
-After awakening, the Buddha reflected that the Dhamma he had realized was profound and subtle, running against the habits of the world. Beings cling to sensual pleasure, cling to self, and seek outwardly. How could they understand dependent arising, impermanence, and not-self? If he spoke such a deep teaching, would anyone understand, or would it only create confusion?
+After awakening, the Buddha reflected that the Dhamma he had realized was profound and subtle, running against the habits of the world. Beings delight in attachment, cling to self, and seek outwardly. How could they understand dependent arising, impermanence, and not-self? Seeing how difficult this truth was, he resolved not to teach and inclined toward seclusion.
 
-For a time, the Buddha inclined toward silence and did not hurry to teach. Then Brahmā Sahampati came and respectfully requested him to teach, saying that there were beings with little dust in their eyes. Not all beings were completely covered by ignorance. Some hearts were ready; they only needed to hear the path.
+Then Brahmā Sahampati understood the danger: the world would be lost if the Dhamma remained unspoken. He came before the Buddha, bowed, and respectfully asked him to teach. He said there were beings with little dust in their eyes who would understand if only they could hear the path.
 
-The Buddha surveyed beings with the eye of a Buddha and saw that some could benefit. Out of compassion, he decided to teach. The deep Dhamma moved from silence into speech, and the teaching began to enter the human world. Awakening would not remain only within one awakened heart; it would become a path beings could hear, consider, and practice.
+The Buddha surveyed the world with the eye of a Buddha and saw beings of many kinds: some with much dust in their eyes, some with little; some hard to teach, others ready to awaken. They were like lotuses in a pond: some still submerged in the water, some rising to the surface, and some already standing above the water unstained. Seeing this, the Buddha opened the way to teach. Awakening would not remain only within one awakened heart; it would become a path beings could hear, consider, and practice.
 
 ## Scene 29 - The First Turning of the Wheel
 ![Buddha (May) - 029 - The First Turning of the Wheel](../assets/images/Buddha%20%28May%29%20-%20029%20-%20The%20First%20Turning%20of%20the%20Wheel.png)
