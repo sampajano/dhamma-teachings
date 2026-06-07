@@ -102,6 +102,8 @@ def test_mobile_reader_controls_can_yield_to_story_text():
     assert "controlsPeek" in html
     assert "showControls" in html
     assert "padding: 24px 20px calc(126px + env(safe-area-inset-bottom))" in html
+    assert ".spread {\n        grid-template-columns: 1fr;\n        grid-template-rows: minmax(340px, 56svh) auto;\n        overflow: visible;" in html
+    assert ".story-page {\n        min-height: 360px;\n        overflow: visible;" in html
 
 
 def test_write_html_creates_parent_directory():

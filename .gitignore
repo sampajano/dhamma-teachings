@@ -2,4 +2,5 @@
 *.log
 node_modules/
 .vercel/
-
+__pycache__/
+.playwright-mcp/

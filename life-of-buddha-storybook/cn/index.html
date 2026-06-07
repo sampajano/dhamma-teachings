@@ -332,6 +332,7 @@
       .spread {
         grid-template-columns: 1fr;
         grid-template-rows: minmax(340px, 56svh) auto;
+        overflow: visible;
         padding: 8px;
       }
 
@@ -341,6 +342,7 @@
 
       .story-page {
         min-height: 360px;
+        overflow: visible;
         padding: 24px 20px calc(126px + env(safe-area-inset-bottom));
       }
 
@@ -357,7 +359,7 @@
       }
 
       .controls.controls-collapsed {
-        transform: translateY(calc(100% - 38px - env(safe-area-inset-bottom)));
+        transform: translateY(calc(100% - 16px));
       }
 
       .controls.controls-collapsed > :not(.controls-peek) {
