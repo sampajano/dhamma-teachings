@@ -121,6 +121,7 @@
 
     .image-page {
       --image-pad: clamp(6px, .8vw, 12px);
+      margin: 0;
       display: grid;
       place-items: center;
       overflow: hidden;
@@ -326,12 +327,12 @@
 
       .spread {
         grid-template-columns: 1fr;
-        grid-template-rows: minmax(260px, 42svh) auto;
-        padding: 12px;
+        grid-template-rows: minmax(340px, 56svh) auto;
+        padding: 8px;
       }
 
-      .image-page img {
-        max-height: none;
+      .image-page {
+        --image-pad: 4px;
       }
 
       .story-page {
@@ -923,6 +924,15 @@
       playButton.setAttribute('aria-label', isPlaying ? 'Pause narration' : 'Play narration');
     }
 
+    function progressEndLabel(scene) {
+      const sceneNumber = Number(scene.number);
+      if (sceneNumber === scenes.length) return 'Complete';
+      if (sceneNumber === 26) return 'Awakening';
+      if (sceneNumber >= 29) return 'Teaching unfolds';
+      if (sceneNumber > 26) return 'After awakening';
+      return 'Awakening unfolding';
+    }
+
     function playCurrentAudio() {
       state.shouldPlayAudio = true;
       sceneAudio.play().then(updatePlayButton).catch(() => {
@@ -958,7 +968,7 @@
       $('#nextButton').disabled = state.index === scenes.length - 1;
       $('#progressBar').style.width = `${((state.index + 1) / scenes.length) * 100}%`;
       $('#progressStart').textContent = state.index === 0 ? 'Beginning' : `Scene ${scene.number}`;
-      $('#progressEnd').textContent = state.index === scenes.length - 1 ? 'Complete' : 'Awakening unfolding';
+      $('#progressEnd').textContent = progressEndLabel(scene);
       document.title = `${scene.number} - ${scene.title} | The Life of the Buddha`;
       sceneAudio.src = scene.audio;
       sceneAudio.load();
