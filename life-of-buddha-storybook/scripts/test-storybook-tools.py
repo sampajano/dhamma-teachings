@@ -72,6 +72,38 @@ def test_build_chinese_html_uses_local_audio_and_page_copy():
     assert "%E7%87%83%E7%81%AF%E4%BD%9B%E5%89%8D%E7%94%9F%E8%B5%B7%E5%A4%A7%E6%84%BF%20-%20cedar.mp3" in html
 
 
+def test_mobile_reader_controls_can_yield_to_story_text():
+    tools = load_tools()
+    scenes = tools.parse_scenes(
+        PROJECT / "content/the-life-of-the-buddha-picture-storybook.zh.md",
+        "zh",
+    )
+
+    html = tools.render_html(
+        scenes=scenes,
+        language="zh-Hans",
+        book_title="佛陀的一生",
+        page_title="佛陀的一生 - 图像故事书",
+        scene_label="第",
+        scene_suffix="幕",
+        scene_select_label="场景",
+        previous_label="← 上一幕",
+        next_label="下一幕 →",
+        play_label="▶ 播放",
+        pause_label="⏸ 暂停",
+        continuous_label="连续播放",
+        beginning_label="开始",
+        progress_end_label="觉悟之路展开",
+        asset_prefix="../",
+        audio_dir="../assets/audio/zh",
+    )
+
+    assert "controls-collapsed" in html
+    assert "controlsPeek" in html
+    assert "showControls" in html
+    assert "padding: 24px 20px calc(126px + env(safe-area-inset-bottom))" in html
+
+
 def test_write_html_creates_parent_directory():
     tools = load_tools()
     with tempfile.TemporaryDirectory() as tmp:
@@ -84,6 +116,7 @@ if __name__ == "__main__":
     tests = [
         test_parse_english_and_chinese_scenes,
         test_build_chinese_html_uses_local_audio_and_page_copy,
+        test_mobile_reader_controls_can_yield_to_story_text,
         test_write_html_creates_parent_directory,
     ]
     for test in tests:

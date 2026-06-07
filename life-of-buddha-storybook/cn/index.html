@@ -203,6 +203,10 @@
       background: rgba(236, 224, 207, .86);
     }
 
+    .controls-peek {
+      display: none;
+    }
+
     .nav-button,
     .audio-button {
       min-width: 116px;
@@ -337,14 +341,48 @@
 
       .story-page {
         min-height: 360px;
-        padding: 24px 20px 32px;
+        padding: 24px 20px calc(126px + env(safe-area-inset-bottom));
       }
 
       .controls {
         position: sticky;
         bottom: 0;
+        z-index: 5;
         grid-template-columns: 1fr 1fr;
         gap: 10px;
+        padding-bottom: calc(11px + env(safe-area-inset-bottom));
+        box-shadow: 0 -12px 30px rgba(50, 38, 25, .16);
+        transform: translateY(0);
+        transition: transform .24s ease, opacity .24s ease;
+      }
+
+      .controls.controls-collapsed {
+        transform: translateY(calc(100% - 38px - env(safe-area-inset-bottom)));
+      }
+
+      .controls.controls-collapsed > :not(.controls-peek) {
+        opacity: 0;
+        pointer-events: none;
+      }
+
+      .controls-peek {
+        position: absolute;
+        top: -20px;
+        left: 50%;
+        width: 108px;
+        min-height: 34px;
+        border: 1px solid rgba(55, 45, 32, .18);
+        border-radius: 999px;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        background: rgba(255, 250, 241, .96);
+        color: var(--muted);
+        box-shadow: 0 8px 22px rgba(50, 38, 25, .16);
+        cursor: pointer;
+        font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+        font-size: 12px;
+        transform: translateX(-50%);
       }
 
       .audio-tools {
@@ -390,6 +428,7 @@
     </section>
 
     <footer class="controls">
+      <button class="controls-peek" id="controlsPeek" type="button" aria-label="显示控制条">⌃</button>
       <button class="nav-button" id="prevButton" type="button" aria-label="← 上一幕">← 上一幕</button>
       <div class="audio-tools">
         <button class="audio-button" id="playButton" type="button" aria-label="▶ 播放">▶ 播放</button>
@@ -907,6 +946,8 @@
     const sceneAudio = $('#sceneAudio');
     const storyText = $('#storyText');
     const storyPage = $('.story-page');
+    const controls = $('.controls');
+    const controlsPeek = $('#controlsPeek');
     const playButton = $('#playButton');
     const autoAdvance = $('#autoAdvance');
     const audioTime = $('#audioTime');
@@ -956,8 +997,22 @@
       return labels.progressEnd;
     }
 
+    function isMobileLayout() {
+      return window.matchMedia('(max-width: 900px)').matches;
+    }
+
+    function showControls() {
+      controls.classList.remove('controls-collapsed');
+    }
+
+    function hideControls() {
+      if (!isMobileLayout() || document.activeElement.closest?.('.controls')) return;
+      controls.classList.add('controls-collapsed');
+    }
+
     function playCurrentAudio() {
       state.shouldPlayAudio = true;
+      showControls();
       sceneAudio.play().then(updatePlayButton).catch(() => {
         state.shouldPlayAudio = false;
         updatePlayButton();
@@ -999,19 +1054,48 @@
       updatePlayButton();
       if (options.play || wasPlaying) {
         playCurrentAudio();
+      } else {
+        showControls();
       }
     }
 
-    $('#prevButton').addEventListener('click', () => render(state.index - 1));
-    $('#nextButton').addEventListener('click', () => render(state.index + 1));
-    sceneSelect.addEventListener('change', (event) => render(Number(event.target.value)));
+    $('#prevButton').addEventListener('click', () => {
+      showControls();
+      render(state.index - 1);
+    });
+    $('#nextButton').addEventListener('click', () => {
+      showControls();
+      render(state.index + 1);
+    });
+    controlsPeek.addEventListener('click', showControls);
+    sceneSelect.addEventListener('change', (event) => {
+      showControls();
+      render(Number(event.target.value));
+    });
     playButton.addEventListener('click', () => {
+      showControls();
       if (sceneAudio.paused || sceneAudio.ended) {
         playCurrentAudio();
       } else {
         pauseAudio();
       }
     });
+
+    let lastScrollY = window.scrollY;
+    let scrollTimer = 0;
+    window.addEventListener('scroll', () => {
+      if (!isMobileLayout()) return;
+      window.clearTimeout(scrollTimer);
+      const currentY = window.scrollY;
+      const scrollingDown = currentY > lastScrollY + 8;
+      const scrollingUp = currentY < lastScrollY - 8;
+      if (currentY < 40 || scrollingUp) {
+        showControls();
+      } else if (scrollingDown) {
+        scrollTimer = window.setTimeout(hideControls, 120);
+      }
+      lastScrollY = currentY;
+    }, { passive: true });
 
     sceneAudio.addEventListener('loadedmetadata', updateAudioTime);
     sceneAudio.addEventListener('timeupdate', updateAudioTime);

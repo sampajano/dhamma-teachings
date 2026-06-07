@@ -136,6 +136,7 @@ def render_html(
     )
     total = f"{len(scenes):02d}"
     first_scene = f"{scene_label}{scenes[0]['number']}{scene_suffix}"
+    controls_aria = "显示控制条" if language.startswith("zh") else "Show controls"
     style = _read_style()
     return f"""<!doctype html>
 <html lang="{language}">
@@ -170,6 +171,7 @@ def render_html(
     </section>
 
     <footer class="controls">
+      <button class="controls-peek" id="controlsPeek" type="button" aria-label="{controls_aria}">⌃</button>
       <button class="nav-button" id="prevButton" type="button" aria-label="{previous_label}">{previous_label}</button>
       <div class="audio-tools">
         <button class="audio-button" id="playButton" type="button" aria-label="{play_label}">{play_label}</button>
@@ -205,6 +207,8 @@ def render_html(
     const sceneAudio = $('#sceneAudio');
     const storyText = $('#storyText');
     const storyPage = $('.story-page');
+    const controls = $('.controls');
+    const controlsPeek = $('#controlsPeek');
     const playButton = $('#playButton');
     const autoAdvance = $('#autoAdvance');
     const audioTime = $('#audioTime');
@@ -254,8 +258,22 @@ def render_html(
       return labels.progressEnd;
     }}
 
+    function isMobileLayout() {{
+      return window.matchMedia('(max-width: 900px)').matches;
+    }}
+
+    function showControls() {{
+      controls.classList.remove('controls-collapsed');
+    }}
+
+    function hideControls() {{
+      if (!isMobileLayout() || document.activeElement.closest?.('.controls')) return;
+      controls.classList.add('controls-collapsed');
+    }}
+
     function playCurrentAudio() {{
       state.shouldPlayAudio = true;
+      showControls();
       sceneAudio.play().then(updatePlayButton).catch(() => {{
         state.shouldPlayAudio = false;
         updatePlayButton();
@@ -297,19 +315,48 @@ def render_html(
       updatePlayButton();
       if (options.play || wasPlaying) {{
         playCurrentAudio();
+      }} else {{
+        showControls();
       }}
     }}
 
-    $('#prevButton').addEventListener('click', () => render(state.index - 1));
-    $('#nextButton').addEventListener('click', () => render(state.index + 1));
-    sceneSelect.addEventListener('change', (event) => render(Number(event.target.value)));
+    $('#prevButton').addEventListener('click', () => {{
+      showControls();
+      render(state.index - 1);
+    }});
+    $('#nextButton').addEventListener('click', () => {{
+      showControls();
+      render(state.index + 1);
+    }});
+    controlsPeek.addEventListener('click', showControls);
+    sceneSelect.addEventListener('change', (event) => {{
+      showControls();
+      render(Number(event.target.value));
+    }});
     playButton.addEventListener('click', () => {{
+      showControls();
       if (sceneAudio.paused || sceneAudio.ended) {{
         playCurrentAudio();
       }} else {{
         pauseAudio();
       }}
     }});
+
+    let lastScrollY = window.scrollY;
+    let scrollTimer = 0;
+    window.addEventListener('scroll', () => {{
+      if (!isMobileLayout()) return;
+      window.clearTimeout(scrollTimer);
+      const currentY = window.scrollY;
+      const scrollingDown = currentY > lastScrollY + 8;
+      const scrollingUp = currentY < lastScrollY - 8;
+      if (currentY < 40 || scrollingUp) {{
+        showControls();
+      }} else if (scrollingDown) {{
+        scrollTimer = window.setTimeout(hideControls, 120);
+      }}
+      lastScrollY = currentY;
+    }}, {{ passive: true }});
 
     sceneAudio.addEventListener('loadedmetadata', updateAudioTime);
     sceneAudio.addEventListener('timeupdate', updateAudioTime);
