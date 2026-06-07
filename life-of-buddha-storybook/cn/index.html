@@ -305,7 +305,11 @@
     @media (max-width: 900px) {
       body { overflow: auto; }
 
-      .reader { min-height: 100svh; }
+      .reader {
+        height: auto;
+        min-height: 100svh;
+        grid-template-rows: auto auto;
+      }
 
       .topbar {
         grid-template-columns: 1fr;

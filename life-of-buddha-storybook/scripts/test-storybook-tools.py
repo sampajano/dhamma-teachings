@@ -101,6 +101,7 @@ def test_mobile_reader_controls_can_yield_to_story_text():
     assert "controls-collapsed" in html
     assert "controlsPeek" in html
     assert "showControls" in html
+    assert ".reader {\n        height: auto;" in html
     assert "padding: 24px 20px 36px" in html
     assert ".spread {\n        grid-template-columns: 1fr;\n        grid-template-rows: minmax(340px, 56svh) auto;\n        overflow: visible;" in html
     assert ".story-page {\n        min-height: 360px;\n        overflow: visible;" in html
