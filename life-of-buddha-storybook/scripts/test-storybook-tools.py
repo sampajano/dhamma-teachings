@@ -102,11 +102,17 @@ def test_mobile_reader_controls_can_yield_to_story_text():
     assert "controlsPeek" in html
     assert "showControls" in html
     assert ".reader {\n        height: auto;" in html
+    assert "padding-bottom: calc(168px + env(safe-area-inset-bottom));" in html
+    assert ".jump {\n        display: grid;\n        grid-template-columns: auto minmax(0, 1fr);" in html
+    assert "width: 100%;\n        min-width: 0;" in html
     assert "padding: 24px 20px 36px" in html
     assert ".spread {\n        grid-template-columns: 1fr;\n        grid-template-rows: minmax(340px, 56svh) auto;\n        overflow: visible;" in html
     assert ".story-page {\n        min-height: 360px;\n        overflow: visible;" in html
     assert ".controls {\n        position: fixed;" in html
     assert "transform: translateY(calc(100% - 16px));" in html
+    assert "isNearPageBottom" in html
+    assert "if (isNearPageBottom()) return;" in html
+    assert "currentY < 40 || isNearPageBottom()" in html
     assert "scheduleControlsAutoHide" in html
 
 

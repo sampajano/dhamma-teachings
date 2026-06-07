@@ -263,6 +263,11 @@ def render_html(
       return window.matchMedia('(max-width: 900px)').matches;
     }}
 
+    function isNearPageBottom() {{
+      const page = document.documentElement;
+      return window.innerHeight + window.scrollY >= page.scrollHeight - 90;
+    }}
+
     function showControls() {{
       controls.classList.remove('controls-collapsed');
       scheduleControlsAutoHide();
@@ -271,6 +276,7 @@ def render_html(
     function scheduleControlsAutoHide() {{
       window.clearTimeout(controlsAutoHideTimer);
       if (!isMobileLayout()) return;
+      if (isNearPageBottom()) return;
       controlsAutoHideTimer = window.setTimeout(hideControls, 4200);
     }}
 
@@ -359,7 +365,7 @@ def render_html(
       window.clearTimeout(scrollTimer);
       const currentY = window.scrollY;
       const scrollingDown = currentY > lastScrollY + 8;
-      if (currentY < 40) {{
+      if (currentY < 40 || isNearPageBottom()) {{
         showControls();
       }} else if (scrollingDown) {{
         scrollTimer = window.setTimeout(hideControls, 80);

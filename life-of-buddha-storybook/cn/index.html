@@ -303,21 +303,28 @@
     .fade-out { opacity: .34; transform: scale(.992); }
 
     @media (max-width: 900px) {
-      body { overflow: auto; }
+      body {
+        overflow-x: hidden;
+        overflow-y: auto;
+      }
 
       .reader {
         height: auto;
         min-height: 100svh;
         grid-template-rows: auto auto;
+        padding-bottom: calc(168px + env(safe-area-inset-bottom));
+        overflow-x: hidden;
       }
 
       .topbar {
         grid-template-columns: 1fr;
         gap: 10px;
+        min-width: 0;
       }
 
       .book-title {
         justify-content: space-between;
+        min-width: 0;
       }
 
       .book-title h1 {
@@ -325,12 +332,16 @@
       }
 
       .jump {
-        justify-content: space-between;
+        display: grid;
+        grid-template-columns: auto minmax(0, 1fr);
+        justify-content: normal;
+        min-width: 0;
       }
 
       select {
         max-width: none;
-        width: min(100%, 420px);
+        width: 100%;
+        min-width: 0;
       }
 
       .spread {
@@ -338,6 +349,7 @@
         grid-template-rows: minmax(340px, 56svh) auto;
         overflow: visible;
         padding: 8px;
+        min-width: 0;
       }
 
       .image-page {
@@ -348,6 +360,7 @@
         min-height: 360px;
         overflow: visible;
         padding: 24px 20px 36px;
+        min-width: 0;
       }
 
       .controls {
@@ -1010,6 +1023,11 @@
       return window.matchMedia('(max-width: 900px)').matches;
     }
 
+    function isNearPageBottom() {
+      const page = document.documentElement;
+      return window.innerHeight + window.scrollY >= page.scrollHeight - 90;
+    }
+
     function showControls() {
       controls.classList.remove('controls-collapsed');
       scheduleControlsAutoHide();
@@ -1018,6 +1036,7 @@
     function scheduleControlsAutoHide() {
       window.clearTimeout(controlsAutoHideTimer);
       if (!isMobileLayout()) return;
+      if (isNearPageBottom()) return;
       controlsAutoHideTimer = window.setTimeout(hideControls, 4200);
     }
 
@@ -1106,7 +1125,7 @@
       window.clearTimeout(scrollTimer);
       const currentY = window.scrollY;
       const scrollingDown = currentY > lastScrollY + 8;
-      if (currentY < 40) {
+      if (currentY < 40 || isNearPageBottom()) {
         showControls();
       } else if (scrollingDown) {
         scrollTimer = window.setTimeout(hideControls, 80);
