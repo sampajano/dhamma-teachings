@@ -109,6 +109,8 @@ def test_mobile_reader_controls_can_yield_to_story_text():
     assert ".spread {\n        grid-template-columns: 1fr;\n        grid-template-rows: minmax(340px, 56svh) auto;\n        overflow: visible;" in html
     assert ".story-page {\n        min-height: 360px;\n        overflow: visible;" in html
     assert ".controls {\n        position: fixed;" in html
+    assert ".controls button {\n        touch-action: manipulation;" in html
+    assert "user-scalable=no" not in html
     assert "transform: translateY(calc(100% - 16px));" in html
     assert "isNearPageBottom" in html
     assert "if (isNearPageBottom()) return;" in html
