@@ -49,9 +49,31 @@ def output_path(scene: dict[str, object], out_dir: Path, language: str) -> Path:
     return out_dir / f"Buddha (May) - {number} - {title} - cedar.mp3"
 
 
+def narration_paragraphs(scene: dict[str, object], language: str) -> list[str]:
+    paragraphs = [str(paragraph) for paragraph in scene["paragraphs"]]
+    if scene["number"] == "25":
+        if language == "en":
+            paragraphs = [
+                paragraph.replace(
+                    "Tradition names them Taṇhā (craving or thirst), Aratī (discontent or aversion), and Rāgā (passion or lust).",
+                    "Tradition remembers these daughters as craving, discontent, and passion.",
+                )
+                for paragraph in paragraphs
+            ]
+        elif language == "zh":
+            paragraphs = [
+                paragraph.replace(
+                    "传统中称她们为 Taṇhā（渴爱、贪求）、Aratī（不乐、不满）与 Rāgā（贪染、欲爱）。",
+                    "传统中称她们象征渴爱、不乐与贪染。",
+                )
+                for paragraph in paragraphs
+            ]
+    return paragraphs
+
+
 def request_speech(scene: dict[str, object], api_key: str, language: str) -> bytes:
     scene_number = int(scene["number"])
-    body = "\n\n".join(str(paragraph) for paragraph in scene["paragraphs"])
+    body = "\n\n".join(narration_paragraphs(scene, language))
     if language == "zh":
         input_text = f"第{scene_number}幕。{scene['title']}。\n\n{body}"
         instructions = ZH_INSTRUCTIONS

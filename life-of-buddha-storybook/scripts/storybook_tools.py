@@ -153,6 +153,7 @@ def render_html(
       <div class="book-title">
         <h1>{book_title}</h1>
         <div class="counter" id="counter">{first_scene} / {total}</div>
+        <a class="source-link" href="https://github.com/sampajano/dhamma-teachings">sampajano/dhamma-teachings</a>
       </div>
       <div class="jump">
         <label for="sceneSelect">{scene_select_label}</label>

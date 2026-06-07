@@ -228,7 +228,7 @@ But Siddhartha's mind was steady. He did not answer attack with hatred, and he w
 ## Scene 25 - The Temptations of Māra's Daughters
 ![Buddha (May) - 025 - The Temptations of Māra's Daughters](../assets/images/Buddha%20%28May%29%20-%20025%20-%20The%20Temptations%20of%20Mara%27s%20Daughters.png)
 
-When Māra's armies failed to move Siddhartha, Māra tried temptation. His daughters appeared as beauty, tenderness, youth, and sensual delight, trying to make Siddhartha's mind chase pleasure again. Compared with storms and weapons, temptation is often more subtle, and more easily mistaken for happiness.
+When Māra's armies failed to move Siddhartha, Māra tried temptation. His daughters appeared as beauty, tenderness, youth, and sensual delight, trying to make Siddhartha's mind chase pleasure again. Tradition names them Taṇhā (craving or thirst), Aratī (discontent or aversion), and Rāgā (passion or lust). Compared with storms and weapons, temptation is often more subtle, and more easily mistaken for happiness.
 
 Siddhartha did not suppress them with hatred, and he was not drawn in. He simply saw that these feelings and forms arose and passed away, without any core that could truly be possessed. Beauty changes, pleasure fades, and once desire is satisfied, new desire arises. If the mind runs after them, it never finds rest.
 

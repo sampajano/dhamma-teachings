@@ -50,11 +50,17 @@ def test_parse_english_and_chinese_scenes():
     assert "the seventh time was as that wheel-turning monarch" in english[40]["paragraphs"][2]
     assert "no eighth laying down of the body here" in english[40]["paragraphs"][2]
     assert "wheel-turning monarch" in english[5]["paragraphs"][1]
+    assert "Taṇhā (craving or thirst)" in english[24]["paragraphs"][0]
+    assert "Aratī (discontent or aversion)" in english[24]["paragraphs"][0]
+    assert "Rāgā (passion or lust)" in english[24]["paragraphs"][0]
     assert "拘舍婆提" in chinese[40]["paragraphs"][2]
     assert "转轮圣王大善见王" in chinese[40]["paragraphs"][2]
     assert "自己正是那位转轮圣王" in chinese[40]["paragraphs"][2]
     assert "第七次，正是以那位转轮圣王的身份在此舍身" in chinese[40]["paragraphs"][2]
     assert "不会再有第八次舍身" in chinese[40]["paragraphs"][2]
+    assert "Taṇhā（渴爱、贪求）" in chinese[24]["paragraphs"][0]
+    assert "Aratī（不乐、不满）" in chinese[24]["paragraphs"][0]
+    assert "Rāgā（贪染、欲爱）" in chinese[24]["paragraphs"][0]
 
 
 def test_english_audio_filenames_keep_existing_ascii_style():
@@ -74,6 +80,31 @@ def test_english_audio_filenames_keep_existing_ascii_style():
 
     assert english_target.name == "Buddha (May) - 041 - The Final Journey to Kusinara - cedar.mp3"
     assert chinese_target.name == "Buddha (May) - 041 - 病中前往拘尸那罗 - cedar.mp3"
+
+
+def test_audio_narration_simplifies_mara_daughters_pali_names():
+    tools = load_tools()
+    generate_audio = load_generate_audio()
+    english = tools.parse_scenes(
+        PROJECT / "content/the-life-of-the-buddha-picture-storybook.en.md",
+        "en",
+    )
+    chinese = tools.parse_scenes(
+        PROJECT / "content/the-life-of-the-buddha-picture-storybook.zh.md",
+        "zh",
+    )
+
+    english_audio_text = "\n\n".join(generate_audio.narration_paragraphs(english[24], "en"))
+    chinese_audio_text = "\n\n".join(generate_audio.narration_paragraphs(chinese[24], "zh"))
+
+    assert "Taṇhā" not in english_audio_text
+    assert "Aratī" not in english_audio_text
+    assert "Rāgā" not in english_audio_text
+    assert "craving, discontent, and passion" in english_audio_text
+    assert "Taṇhā" not in chinese_audio_text
+    assert "Aratī" not in chinese_audio_text
+    assert "Rāgā" not in chinese_audio_text
+    assert "渴爱、不乐与贪染" in chinese_audio_text
 
 
 def test_build_chinese_html_uses_local_audio_and_page_copy():
@@ -104,6 +135,7 @@ def test_build_chinese_html_uses_local_audio_and_page_copy():
 
     assert '<html lang="zh-Hans">' in html
     assert "<h1>佛陀的一生</h1>" in html
+    assert '<a class="source-link" href="https://github.com/sampajano/dhamma-teachings">sampajano/dhamma-teachings</a>' in html
     assert "第01幕 / 42" in html
     assert "../assets/images/Buddha%20%28May%29%20-%20001" in html
     assert "../assets/audio/zh/Buddha%20%28May%29%20-%20001" in html
@@ -171,6 +203,7 @@ if __name__ == "__main__":
     tests = [
         test_parse_english_and_chinese_scenes,
         test_english_audio_filenames_keep_existing_ascii_style,
+        test_audio_narration_simplifies_mara_daughters_pali_names,
         test_build_chinese_html_uses_local_audio_and_page_copy,
         test_mobile_reader_controls_can_yield_to_story_text,
         test_write_html_creates_parent_directory,
