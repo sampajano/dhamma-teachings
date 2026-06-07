@@ -10,10 +10,19 @@ import tempfile
 
 PROJECT = Path(__file__).resolve().parents[1]
 TOOLS_PATH = PROJECT / "scripts/storybook_tools.py"
+GENERATE_AUDIO_PATH = PROJECT / "scripts/generate-audio.py"
 
 
 def load_tools():
     spec = importlib.util.spec_from_file_location("storybook_tools", TOOLS_PATH)
+    assert spec and spec.loader
+    module = importlib.util.module_from_spec(spec)
+    spec.loader.exec_module(module)
+    return module
+
+
+def load_generate_audio():
+    spec = importlib.util.spec_from_file_location("generate_audio", GENERATE_AUDIO_PATH)
     assert spec and spec.loader
     module = importlib.util.module_from_spec(spec)
     spec.loader.exec_module(module)
@@ -36,6 +45,35 @@ def test_parse_english_and_chinese_scenes():
     assert english[0]["number"] == "01"
     assert chinese[0]["number"] == "01"
     assert chinese[0]["title"] == "燃灯佛前生起大愿"
+    assert "Kusāvatī" in english[40]["paragraphs"][2]
+    assert "he himself had been that king" in english[40]["paragraphs"][2]
+    assert "the seventh time was as that wheel-turning monarch" in english[40]["paragraphs"][2]
+    assert "no eighth laying down of the body here" in english[40]["paragraphs"][2]
+    assert "wheel-turning monarch" in english[5]["paragraphs"][1]
+    assert "拘舍婆提" in chinese[40]["paragraphs"][2]
+    assert "转轮圣王大善见王" in chinese[40]["paragraphs"][2]
+    assert "自己正是那位转轮圣王" in chinese[40]["paragraphs"][2]
+    assert "第七次，正是以那位转轮圣王的身份在此舍身" in chinese[40]["paragraphs"][2]
+    assert "不会再有第八次舍身" in chinese[40]["paragraphs"][2]
+
+
+def test_english_audio_filenames_keep_existing_ascii_style():
+    tools = load_tools()
+    generate_audio = load_generate_audio()
+    english = tools.parse_scenes(
+        PROJECT / "content/the-life-of-the-buddha-picture-storybook.en.md",
+        "en",
+    )
+    chinese = tools.parse_scenes(
+        PROJECT / "content/the-life-of-the-buddha-picture-storybook.zh.md",
+        "zh",
+    )
+
+    english_target = generate_audio.output_path(english[40], Path("audio"), "en")
+    chinese_target = generate_audio.output_path(chinese[40], Path("audio/zh"), "zh")
+
+    assert english_target.name == "Buddha (May) - 041 - The Final Journey to Kusinara - cedar.mp3"
+    assert chinese_target.name == "Buddha (May) - 041 - 病中前往拘尸那罗 - cedar.mp3"
 
 
 def test_build_chinese_html_uses_local_audio_and_page_copy():
@@ -132,6 +170,7 @@ def test_write_html_creates_parent_directory():
 if __name__ == "__main__":
     tests = [
         test_parse_english_and_chinese_scenes,
+        test_english_audio_filenames_keep_existing_ascii_style,
         test_build_chinese_html_uses_local_audio_and_page_copy,
         test_mobile_reader_controls_can_yield_to_story_text,
         test_write_html_creates_parent_directory,

@@ -59,7 +59,7 @@ A lotus grows from mud without being stained by it. Siddhartha too would live in
 
 The aged sage Asita came to the palace to see the newborn prince. He was a recluse of deep practice and careful insight, one whose heart was not easily moved by royal celebration. But when he saw the marks of greatness on the child, he immediately knew this was no ordinary prince.
 
-Asita foretold that the child had two possible destinies. If he remained in the palace, he would become a universal monarch. If he left home to seek truth, he would become an unsurpassed Awakened One. King Suddhodana rejoiced at the thought of a world-ruling monarch, for it promised glory to family and kingdom. Yet the other possibility quietly opened a future the palace could not control.
+Asita foretold that the child had two possible destinies. If he remained in the palace, he would become a wheel-turning monarch. If he left home to seek truth, he would become an unsurpassed Awakened One. King Suddhodana rejoiced at the thought of such a monarch, for it promised glory to family and kingdom. Yet the other possibility quietly opened a future the palace could not control.
 
 Asita rejoiced because a Buddha would appear in the world. He wept because he was already old and would not live long enough to hear that Buddha's teaching. The celebration in the palace was therefore touched by a gentle sorrow: someone had seen the dawn coming, but knew he would not live to see the sun rise.
 
@@ -376,7 +376,7 @@ After the illness arose, the Buddha did not immediately stop. Weak in body, he c
 
 Along the way, the Buddha rested wearily beneath a tree. Ānanda attended him with sorrow and care, while the monks stood quietly nearby, knowing that their teacher's body was nearing its end. The scene is deeply human: an awakened one also has an aging body, becomes ill, and needs water, rest, and care.
 
-Ānanda had felt that Kusinārā was too small and remote a place for the Blessed One's final Nibbāna. But the Buddha did not bind the end of his life to the size of a city or to worldly splendor. Whether a great city or a small town, all conditioned things are passing away. The dignity of the Dhamma does not depend on the magnificence of the setting.
+Ānanda had felt that Kusinārā was too small and remote a place for the Blessed One's final Nibbāna. But the Buddha did not bind the end of his life to the size of a city or to worldly splendor. The story turned more intimate: in a former age, when this town was called Kusāvatī, it had been the capital of King Mahāsudassana, a wheel-turning monarch, and the Buddha said that he himself had been that king. He remembered having laid down his body in this very place six times; the seventh time was as that wheel-turning monarch. Now, as the Tathāgata approached final Nibbāna, there would be no eighth laying down of the body here.
 
 ## Scene 42 - The Parinibbāna
 ![Buddha (May) - 042 - The Parinibbāna](../assets/images/Buddha%20%28May%29%20-%20042%20-%20The%20Parinibbana.png)

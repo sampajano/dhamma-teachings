@@ -9,6 +9,7 @@ import json
 import os
 import sys
 import time
+import unicodedata
 import urllib.error
 import urllib.request
 from pathlib import Path
@@ -37,9 +38,15 @@ ZH_INSTRUCTIONS = (
 )
 
 
-def output_path(scene: dict[str, object], out_dir: Path) -> Path:
+def ascii_title(value: str) -> str:
+    normalized = unicodedata.normalize("NFKD", value)
+    return "".join(char for char in normalized if not unicodedata.combining(char))
+
+
+def output_path(scene: dict[str, object], out_dir: Path, language: str) -> Path:
     number = f"{int(scene['number']):03d}"
-    return out_dir / f"Buddha (May) - {number} - {scene['title']} - cedar.mp3"
+    title = ascii_title(str(scene["title"])) if language == "en" else str(scene["title"])
+    return out_dir / f"Buddha (May) - {number} - {title} - cedar.mp3"
 
 
 def request_speech(scene: dict[str, object], api_key: str, language: str) -> bytes:
@@ -90,7 +97,7 @@ def generate_one(
     out_dir: Path,
     language: str,
 ) -> str:
-    target = output_path(scene, out_dir)
+    target = output_path(scene, out_dir, language)
     if target.exists() and not overwrite:
         return f"skip {scene['number']} {target.name}"
     audio = request_speech(scene, api_key, language)
