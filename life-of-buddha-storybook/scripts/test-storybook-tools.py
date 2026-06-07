@@ -47,8 +47,8 @@ def test_parse_english_and_chinese_scenes():
     assert chinese[0]["title"] == "燃灯佛前生起大愿"
     assert "Kusāvatī" in english[40]["paragraphs"][2]
     assert "he himself had been that king" in english[40]["paragraphs"][2]
-    assert "the seventh time was as that wheel-turning monarch" in english[40]["paragraphs"][2]
-    assert "no eighth laying down of the body here" in english[40]["paragraphs"][2]
+    assert "in that royal life" in english[40]["paragraphs"][2]
+    assert "no further laying down would follow" in english[40]["paragraphs"][2]
     assert "wheel-turning monarch" in english[5]["paragraphs"][1]
     assert "Taṇhā (craving or thirst)" in english[24]["paragraphs"][0]
     assert "Aratī (discontent or aversion)" in english[24]["paragraphs"][0]
@@ -56,8 +56,8 @@ def test_parse_english_and_chinese_scenes():
     assert "拘舍婆提" in chinese[40]["paragraphs"][2]
     assert "转轮圣王大善见王" in chinese[40]["paragraphs"][2]
     assert "自己正是那位转轮圣王" in chinese[40]["paragraphs"][2]
-    assert "第七次，正是以那位转轮圣王的身份在此舍身" in chinese[40]["paragraphs"][2]
-    assert "不会再有第八次舍身" in chinese[40]["paragraphs"][2]
+    assert "曾在那一生于此地舍身" in chinese[40]["paragraphs"][2]
+    assert "此后不会再有下一次" in chinese[40]["paragraphs"][2]
     assert "Taṇhā（渴爱、贪求）" in chinese[24]["paragraphs"][0]
     assert "Aratī（不乐、不满）" in chinese[24]["paragraphs"][0]
     assert "Rāgā（贪染、欲爱）" in chinese[24]["paragraphs"][0]
@@ -134,8 +134,9 @@ def test_build_chinese_html_uses_local_audio_and_page_copy():
     )
 
     assert '<html lang="zh-Hans">' in html
-    assert "<h1>佛陀的一生</h1>" in html
-    assert '<a class="source-link" href="https://github.com/sampajano/dhamma-teachings">sampajano/dhamma-teachings</a>' in html
+    assert '<h1><a class="title-link" href="https://github.com/sampajano/dhamma-teachings" aria-label="Open source repository on GitHub">佛陀的一生</a></h1>' in html
+    assert "source-link" not in html
+    assert ">source</a>" not in html
     assert "第01幕 / 42" in html
     assert "../assets/images/Buddha%20%28May%29%20-%20001" in html
     assert "../assets/audio/zh/Buddha%20%28May%29%20-%20001" in html

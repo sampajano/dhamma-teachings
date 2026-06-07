@@ -151,13 +151,14 @@ def render_html(
   <main class="reader" aria-live="polite">
     <header class="topbar">
       <div class="book-title">
-        <h1>{book_title}</h1>
+        <h1><a class="title-link" href="https://github.com/sampajano/dhamma-teachings" aria-label="Open source repository on GitHub">{book_title}</a></h1>
         <div class="counter" id="counter">{first_scene} / {total}</div>
-        <a class="source-link" href="https://github.com/sampajano/dhamma-teachings">sampajano/dhamma-teachings</a>
       </div>
-      <div class="jump">
-        <label for="sceneSelect">{scene_select_label}</label>
-        <select id="sceneSelect" aria-label="{scene_select_label}"></select>
+      <div class="top-actions">
+        <div class="jump">
+          <label for="sceneSelect">{scene_select_label}</label>
+          <select id="sceneSelect" aria-label="{scene_select_label}"></select>
+        </div>
       </div>
     </header>
 

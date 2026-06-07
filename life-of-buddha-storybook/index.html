@@ -83,19 +83,21 @@
       white-space: nowrap;
     }
 
-    .source-link {
-      color: var(--muted);
-      font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
-      font-size: 11px;
-      letter-spacing: 0;
-      opacity: .62;
+    .title-link {
+      color: inherit;
       text-decoration: none;
-      white-space: nowrap;
     }
 
-    .source-link:hover {
-      color: #7f5519;
-      opacity: 1;
+    .title-link:hover {
+      color: inherit;
+    }
+
+    .top-actions {
+      display: flex;
+      align-items: center;
+      justify-content: end;
+      gap: 12px;
+      min-width: 0;
     }
 
     .jump {
@@ -339,7 +341,6 @@
 
       .book-title {
         justify-content: space-between;
-        flex-wrap: wrap;
         min-width: 0;
       }
 
@@ -347,8 +348,12 @@
         white-space: normal;
       }
 
-      .source-link {
-        flex-basis: 100%;
+      .top-actions {
+        display: grid;
+        grid-template-columns: 1fr auto;
+        align-items: center;
+        gap: 6px 10px;
+        min-width: 0;
       }
 
       .jump {
@@ -356,6 +361,7 @@
         grid-template-columns: auto minmax(0, 1fr);
         justify-content: normal;
         min-width: 0;
+        grid-column: 1 / -1;
       }
 
       select {
@@ -452,13 +458,14 @@
   <main class="reader" aria-live="polite">
     <header class="topbar">
       <div class="book-title">
-        <h1>The Life of the Buddha</h1>
+        <h1><a class="title-link" href="https://github.com/sampajano/dhamma-teachings" aria-label="Open source repository on GitHub">The Life of the Buddha</a></h1>
         <div class="counter" id="counter">Scene 01 / 42</div>
-        <a class="source-link" href="https://github.com/sampajano/dhamma-teachings">sampajano/dhamma-teachings</a>
       </div>
-      <div class="jump">
-        <label for="sceneSelect">Scene</label>
-        <select id="sceneSelect" aria-label="Choose a scene"></select>
+      <div class="top-actions">
+        <div class="jump">
+          <label for="sceneSelect">Scene</label>
+          <select id="sceneSelect" aria-label="Choose a scene"></select>
+        </div>
       </div>
     </header>
 
@@ -945,7 +952,7 @@
     "paragraphs": [
       "After the illness arose, the Buddha did not immediately stop. Weak in body, he continued with Ānanda and the monks toward Kusinārā. The road was dusty and plain. Ahead lay only a small and unimportant-looking town, with none of the grandeur that people might imagine for the final passing of a great teacher.",
       "Along the way, the Buddha rested wearily beneath a tree. Ānanda attended him with sorrow and care, while the monks stood quietly nearby, knowing that their teacher's body was nearing its end. The scene is deeply human: an awakened one also has an aging body, becomes ill, and needs water, rest, and care.",
-      "Ānanda had felt that Kusinārā was too small and remote a place for the Blessed One's final Nibbāna. But the Buddha did not bind the end of his life to the size of a city or to worldly splendor. The story turned more intimate: in a former age, when this town was called Kusāvatī, it had been the capital of King Mahāsudassana, a wheel-turning monarch, and the Buddha said that he himself had been that king. He remembered having laid down his body in this very place six times; the seventh time was as that wheel-turning monarch. Now, as the Tathāgata approached final Nibbāna, there would be no eighth laying down of the body here."
+      "Ānanda had felt that Kusinārā was too small and remote a place for the Blessed One's final Nibbāna. But the Buddha did not bind the end of his life to the size of a city or to worldly splendor. The story turned more intimate: in a former age, when this town was called Kusāvatī, it had been the capital of King Mahāsudassana, a wheel-turning monarch, and the Buddha said that he himself had been that king. He remembered laying down his body in this very place in that royal life. Now the Tathāgata was laying down the body here for the final time; no further laying down would follow."
     ],
     "audio": "assets/audio/Buddha%20%28May%29%20-%20041%20-%20The%20Final%20Journey%20to%20Kusinara%20-%20cedar.mp3"
   },

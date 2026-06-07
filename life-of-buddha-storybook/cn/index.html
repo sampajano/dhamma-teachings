@@ -83,19 +83,21 @@
       white-space: nowrap;
     }
 
-    .source-link {
-      color: var(--muted);
-      font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
-      font-size: 11px;
-      letter-spacing: 0;
-      opacity: .62;
+    .title-link {
+      color: inherit;
       text-decoration: none;
-      white-space: nowrap;
     }
 
-    .source-link:hover {
-      color: #7f5519;
-      opacity: 1;
+    .title-link:hover {
+      color: inherit;
+    }
+
+    .top-actions {
+      display: flex;
+      align-items: center;
+      justify-content: end;
+      gap: 12px;
+      min-width: 0;
     }
 
     .jump {
@@ -339,7 +341,6 @@
 
       .book-title {
         justify-content: space-between;
-        flex-wrap: wrap;
         min-width: 0;
       }
 
@@ -347,8 +348,12 @@
         white-space: normal;
       }
 
-      .source-link {
-        flex-basis: 100%;
+      .top-actions {
+        display: grid;
+        grid-template-columns: 1fr auto;
+        align-items: center;
+        gap: 6px 10px;
+        min-width: 0;
       }
 
       .jump {
@@ -356,6 +361,7 @@
         grid-template-columns: auto minmax(0, 1fr);
         justify-content: normal;
         min-width: 0;
+        grid-column: 1 / -1;
       }
 
       select {
@@ -452,13 +458,14 @@
   <main class="reader" aria-live="polite">
     <header class="topbar">
       <div class="book-title">
-        <h1>佛陀的一生</h1>
+        <h1><a class="title-link" href="https://github.com/sampajano/dhamma-teachings" aria-label="Open source repository on GitHub">佛陀的一生</a></h1>
         <div class="counter" id="counter">第01幕 / 42</div>
-        <a class="source-link" href="https://github.com/sampajano/dhamma-teachings">sampajano/dhamma-teachings</a>
       </div>
-      <div class="jump">
-        <label for="sceneSelect">场景</label>
-        <select id="sceneSelect" aria-label="场景"></select>
+      <div class="top-actions">
+        <div class="jump">
+          <label for="sceneSelect">场景</label>
+          <select id="sceneSelect" aria-label="场景"></select>
+        </div>
       </div>
     </header>
 
@@ -945,7 +952,7 @@
     "paragraphs": [
       "病痛发作后，佛陀没有立刻停下。他身体虚弱，仍与阿难和僧众继续前往拘尸那罗。道路尘土朴素，远处只是一个不起眼的小城，没有王宫的盛大，也没有世人想象中英雄谢幕的辉煌场面。",
       "途中，佛陀疲惫地在树下休息。阿难在旁照顾，心中忧伤又不舍；僧众安静随侍，知道导师的色身正在走向最后。这个画面很人间：觉悟者也有年老的身体，也会病，也会需要水、休息和照护。",
-      "阿难曾觉得拘尸那罗太小、太偏僻，不适合世尊最后般涅槃。可是佛陀没有把生命的终点系在城市的大小和世间的荣耀上。更深的转折是：在久远过去，这座城曾名为拘舍婆提，是转轮圣王大善见王的王都；而佛陀说，自己正是那位转轮圣王。他忆念自己曾在这个地方舍身六次；第七次，正是以那位转轮圣王的身份在此舍身。如今如来趋向最后般涅槃，这里不会再有第八次舍身。"
+      "阿难曾觉得拘尸那罗太小、太偏僻，不适合世尊最后般涅槃。可是佛陀没有把生命的终点系在城市的大小和世间的荣耀上。更深的转折是：在久远过去，这座城曾名为拘舍婆提，是转轮圣王大善见王的王都；而佛陀说，自己正是那位转轮圣王。他忆念自己曾在那一生于此地舍身。如今如来又将在这里最后一次放下色身；此后不会再有下一次。"
     ],
     "audio": "../assets/audio/zh/Buddha%20%28May%29%20-%20041%20-%20%E7%97%85%E4%B8%AD%E5%89%8D%E5%BE%80%E6%8B%98%E5%B0%B8%E9%82%A3%E7%BD%97%20-%20cedar.mp3"
   },
