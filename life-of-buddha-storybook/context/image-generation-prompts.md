@@ -4,21 +4,21 @@ Preserved from the English storybook before the 42-scene bilingual sync.
 
 ## Prompt
 
-### Learning from Alara Kalama
+### Learning from Āḷāra Kālāma
 
 ```text
 Edit image 1 into a final version for the Buddha May image sequence.
 
 Image roles:
-- Image 1 is the target scene to preserve: Siddhattha learning from Alara Kalama in a forest hermitage.
+- Image 1 is the target scene to preserve: Siddhattha learning from Āḷāra Kālāma in a forest hermitage.
 - Images 2 and 3 are style and Siddhattha face references from the original Buddha May sequence.
 - Image 4 is the accepted Leaving Alara style reference.
 
 Required changes to image 1:
 - Remove the large bottom caption plaque entirely. There should be no bottom title card and no "LEARNING FROM..." text.
-- Keep Siddhattha's face, ochre robe, seated meditation posture, Alara Kalama, students, forest hermitage, warm cinematic golden lighting, and photorealistic original-series style.
-- Add a subtle visual indication of the seventh jhanic state / sphere of nothingness: a vast, serene, empty, dark-translucent spherical spaciousness or star-filled void in the upper sky/forest atmosphere, luminous but quiet, not a diagram and not text.
-- Add one small elegant teacher name label near the elderly white-haired teacher, reading exactly: Alara Kalama. It may be on a small wooden or gold-edged plaque near him, not floating over his head.
+- Keep Siddhattha's face, ochre robe, seated meditation posture, Āḷāra Kālāma, students, forest hermitage, warm cinematic golden lighting, and photorealistic original-series style.
+- Add a subtle visual indication of the seventh jhānic state / sphere of nothingness: a vast, serene, empty, dark-translucent spherical spaciousness or star-filled void in the upper sky/forest atmosphere, luminous but quiet, not a diagram and not text.
+- Add one small elegant teacher name label near the elderly white-haired teacher, reading exactly: Āḷāra Kālāma. It may be on a small wooden or gold-edged plaque near him, not floating over his head.
 
 Style constraints:
 Match the original Buddha May image series: cinematic photorealistic historical Buddhist epic, realistic faces, warm golden forest light, shallow depth of field, ancient Indian forest hermitage, rich but natural detail.
@@ -27,7 +27,7 @@ Avoid:
 No bottom caption plaque. No title text. No "Learning from..." text. No labels over people's heads. Do not write Buddha or Bodhisatta. Do not write "sphere of nothingness" as text. Do not make it a manuscript, cartoon, infographic, diagram, chart, or collage. No modern objects. No watermark.
 ```
 
-### Leaving Alara Kalama
+### Leaving Āḷāra Kālāma
 
 ```text
 Create a new image using the input images as visual references only.
@@ -39,15 +39,15 @@ Reference image roles:
 - Image 4 (Buddha May 015): use for forest hermitage lighting and the bottom text plaque style.
 
 Primary scene:
-Siddhattha Gotama respectfully leaves Alara Kalama after mastering the meditative attainment that Alara taught, but before enlightenment. Siddhattha is a young renunciate with the same face and graceful features as the young prince in reference images 1 and 2, wearing a simple saffron/ochre-orange robe, hair tied up, no crown, no jewelry except very minimal renunciate simplicity. He stands slightly bowed with joined palms in gratitude.
+Siddhattha Gotama respectfully leaves Āḷāra Kālāma after mastering the meditative attainment that Alara taught, but before enlightenment. Siddhattha is a young renunciate with the same face and graceful features as the young prince in reference images 1 and 2, wearing a simple saffron/ochre-orange robe, hair tied up, no crown, no jewelry except very minimal renunciate simplicity. He stands slightly bowed with joined palms in gratitude.
 
-Alara Kalama is an elderly forest ascetic teacher with white hair and a long white beard, seated at the entrance of a modest hermitage under trees. He gently extends one hand as if asking Siddhattha to stay and share leadership. Several other students in plain robes sit behind him, watching with respect and sadness.
+Āḷāra Kālāma is an elderly forest ascetic teacher with white hair and a long white beard, seated at the entrance of a modest hermitage under trees. He gently extends one hand as if asking Siddhattha to stay and share leadership. Several other students in plain robes sit behind him, watching with respect and sadness.
 
 Style:
 Match the original Buddha May image series as closely as possible: cinematic photorealistic historical Buddhist epic, realistic faces, rich but natural detail, warm golden sunlight, shallow depth of field, ancient Indian setting, no painted border, no manuscript illustration style, no modern objects, no collage panels.
 
 Composition:
-Vertical portrait image. Foreground focuses on Siddhattha bowing to Alara Kalama. Forest hermitage and students in the background. Use dramatic but natural golden light through trees. Make it feel like one continuous cinematic scene, not a diagram and not a mural.
+Vertical portrait image. Foreground focuses on Siddhattha bowing to Āḷāra Kālāma. Forest hermitage and students in the background. Use dramatic but natural golden light through trees. Make it feel like one continuous cinematic scene, not a diagram and not a mural.
 
 Text:
 At the bottom, include a dark brown/black rectangular gold-trim caption plaque similar to reference images 3 and 4. The plaque should contain the title exactly:
@@ -64,22 +64,22 @@ Constraints:
 - Do not make it a bordered manuscript, cartoon, infographic, chart, or multi-panel collage.
 ```
 
-### Learning from Uddaka Ramaputta
+### Learning from Uddaka Rāmaputta
 
 ```text
 Edit image 1 into a final version for the Buddha May image sequence.
 
 Image roles:
-- Image 1 is the target scene to preserve: Siddhattha learning from Uddaka Ramaputta in a forest hermitage.
+- Image 1 is the target scene to preserve: Siddhattha learning from Uddaka Rāmaputta in a forest hermitage.
 - Images 2 and 3 are style and Siddhattha face references from the original Buddha May sequence.
 - Image 4 is the accepted Leaving Alara style reference for cinematic forest hermitage mood only.
 
 Required changes to image 1:
 - Remove the large bottom caption plaque entirely. There should be no bottom title card and no "LEARNING FROM..." text.
-- Keep Siddhattha's face, ochre robe, seated meditation posture, Uddaka Ramaputta, students, forest hermitage, warm cinematic golden lighting, and photorealistic original-series style.
-- Keep Uddaka Ramaputta clearly different from Alara Kalama: middle-aged, dark hair in a topknot, trimmed dark beard, sharper introspective face, deep brown ascetic robe.
-- Add a subtle visual indication of the eighth jhanic state / neither perception nor non-perception: an almost transparent, barely perceptible luminous field around the meditators and upper forest air, a liminal shimmer where forms seem neither fully present nor absent, not a diagram and not text.
-- Add one small elegant teacher name label near the dark-haired teacher, reading exactly: Uddaka Ramaputta. It may be on a small wooden or gold-edged plaque near him, not floating over his head.
+- Keep Siddhattha's face, ochre robe, seated meditation posture, Uddaka Rāmaputta, students, forest hermitage, warm cinematic golden lighting, and photorealistic original-series style.
+- Keep Uddaka Rāmaputta clearly different from Āḷāra Kālāma: middle-aged, dark hair in a topknot, trimmed dark beard, sharper introspective face, deep brown ascetic robe.
+- Add a subtle visual indication of the eighth jhānic state / neither perception nor non-perception: an almost transparent, barely perceptible luminous field around the meditators and upper forest air, a liminal shimmer where forms seem neither fully present nor absent, not a diagram and not text.
+- Add one small elegant teacher name label near the dark-haired teacher, reading exactly: Uddaka Rāmaputta. It may be on a small wooden or gold-edged plaque near him, not floating over his head.
 
 Style constraints:
 Match the original Buddha May image series: cinematic photorealistic historical Buddhist epic, realistic faces, warm golden forest light, shallow depth of field, ancient Indian forest hermitage, rich but natural detail.
@@ -88,7 +88,7 @@ Avoid:
 No bottom caption plaque. No title text. No "Learning from..." text. No labels over people's heads. Do not write Buddha or Bodhisatta. Do not write "neither perception nor non-perception" as text. Do not make it a manuscript, cartoon, infographic, diagram, chart, or collage. No modern objects. No watermark.
 ```
 
-### Leaving Uddaka Ramaputta
+### Leaving Uddaka Rāmaputta
 
 ```text
 Create a new image using the input images as visual references only.
@@ -99,7 +99,7 @@ Reference image roles:
 - Image 3 (Buddha May 015): use for forest hermitage atmosphere, warm dappled light, natural realism, and optional bottom caption plaque style.
 - Image 4 (Leaving Alara style test): use for the farewell composition, respectful bowing gesture, teacher-student emotional mood, and bottom caption plaque style; change the teacher identity to Uddaka.
 
-Primary scene: Siddhattha Gotama respectfully leaves Uddaka Ramaputta after mastering the subtle meditative attainment taught in that school, but before enlightenment. Siddhattha is a young renunciate with the same face and graceful features as the young prince in reference images 1 and 2, wearing a simple saffron/ochre-orange robe, hair tied up, no crown and no royal jewelry. He stands slightly bowed with joined palms in gratitude. Uddaka Ramaputta must look clearly different from Alara Kalama: a middle-aged ascetic teacher with dark hair tied in a topknot, trimmed dark beard, sharper introspective face, and deep brown ascetic robes. Uddaka sits or stands at a modest forest hermitage, one hand extended with a composed but wistful expression, asking Siddhattha to remain. Several students in plain robes watch quietly in the background.
+Primary scene: Siddhattha Gotama respectfully leaves Uddaka Rāmaputta after mastering the subtle meditative attainment taught in that school, but before enlightenment. Siddhattha is a young renunciate with the same face and graceful features as the young prince in reference images 1 and 2, wearing a simple saffron/ochre-orange robe, hair tied up, no crown and no royal jewelry. He stands slightly bowed with joined palms in gratitude. Uddaka Rāmaputta must look clearly different from Āḷāra Kālāma: a middle-aged ascetic teacher with dark hair tied in a topknot, trimmed dark beard, sharper introspective face, and deep brown ascetic robes. Uddaka sits or stands at a modest forest hermitage, one hand extended with a composed but wistful expression, asking Siddhattha to remain. Several students in plain robes watch quietly in the background.
 
 Style: Match the original Buddha May image series as closely as possible: cinematic photorealistic historical Buddhist epic, realistic faces, rich but natural detail, warm twilight-gold light, shallow depth of field, ancient Indian setting, no painted border, no manuscript illustration style, no modern objects, no collage panels.
 

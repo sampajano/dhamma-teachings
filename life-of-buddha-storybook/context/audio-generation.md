@@ -38,7 +38,7 @@ Read as a calm, mature male narrator with warmth, depth, and reverence. The paci
 Formal per-scene files use:
 
 ```text
-Buddha (May) - 001 - The Great Aspiration Before Dipankara Buddha - cedar.mp3
+Buddha (May) - 001 - The Great Aspiration Before Dīpaṅkara Buddha - cedar.mp3
 ```
 
 The scene number and English title match the storybook and image sequence.

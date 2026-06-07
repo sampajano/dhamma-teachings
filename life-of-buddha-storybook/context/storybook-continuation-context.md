@@ -35,7 +35,7 @@ There are currently 38 official image files named like:
 
 The Chinese note currently embeds all 38 images using vault-relative Obsidian embeds, for example:
 
-`![[Dhamma/Attachments/(2026) Buddha's life/Buddha (May) - 001 - The Vow Before Dipankara Buddha.png]]`
+`![[Dhamma/Attachments/(2026) Buddha's life/Buddha (May) - 001 - The Vow Before Dīpaṅkara Buddha.png]]`
 
 ## Local Vault Instructions
 
@@ -159,17 +159,17 @@ Scene 31 and 32:
 
 - Scene 31 is Yasodharā seeing the Buddha again after his awakening and return to Kapilavatthu.
 - Scene 32 is the Buddha instructing Rāhula.
-- Earlier there was confusion about scenes 22-24; ignore older assumptions. The current order places Yasodharā/Rāhula after the establishment of the Sangha and before later teaching scenes.
+- Earlier there was confusion about scenes 22-24; ignore older assumptions. The current order places Yasodharā/Rāhula after the establishment of the Saṅgha and before later teaching scenes.
 
 Scene 24/25/26:
 
-- Mara's army, Mara's daughters, earth-witness/awakening are separate sequential scenes.
+- Māra's army, Māra's daughters, earth-witness/awakening are separate sequential scenes.
 
 Scene 1 wording:
 
 - The current title is `燃灯佛前生起大愿`.
-- Avoid wording such as `初见燃灯佛`, because it may sound as if Sumedha met Dipankara Buddha multiple times in that life.
-- The first two scenes should feel like one continuous Dipankara-Buddha occasion: Scene 1 shows reverent offering and the arising of the vow; Scene 2 shows the stronger embodied action of lying in the mud and receiving the prophecy.
+- Avoid wording such as `初见燃灯佛`, because it may sound as if Sumedha met Dīpaṅkara Buddha multiple times in that life.
+- The first two scenes should feel like one continuous Dīpaṅkara-Buddha occasion: Scene 1 shows reverent offering and the arising of the vow; Scene 2 shows the stronger embodied action of lying in the mud and receiving the prophecy.
 
 ## Current Scene List
 
@@ -188,44 +188,44 @@ Current scene headings and image embeds:
 
 | #   | Heading      | Image                                                                                                          |
 | --- | ------------ | -------------------------------------------------------------------------------------------------------------- |
-| 01  | 燃灯佛前生起大愿     | `Dhamma/Attachments/(2026) Buddha's life/Buddha (May) - 001 - The Vow Before Dipankara Buddha.png`             |
+| 01  | 燃灯佛前生起大愿     | `Dhamma/Attachments/(2026) Buddha's life/Buddha (May) - 001 - The Vow Before Dīpaṅkara Buddha.png`             |
 | 02  | 铺发泥中与未来成佛的授记 | `Dhamma/Attachments/(2026) Buddha's life/Buddha (May) - 002 - The Prophecy of Future Buddhahood.png`           |
-| 03  | 摩耶夫人的白象梦     | `Dhamma/Attachments/(2026) Buddha's life/Buddha (May) - 003 - Queen Maya's Dream.png`                          |
-| 04  | 蓝毗尼园中的摩耶夫人   | `Dhamma/Attachments/(2026) Buddha's life/Buddha (May) - 004 - Queen Maya in Lumbini Grove.png`                 |
+| 03  | 摩耶夫人的白象梦     | `Dhamma/Attachments/(2026) Buddha's life/Buddha (May) - 003 - Queen Māyā's Dream.png`                          |
+| 04  | 蓝毗尼园中的摩耶夫人   | `Dhamma/Attachments/(2026) Buddha's life/Buddha (May) - 004 - Queen Māyā in Lumbinī Grove.png`                 |
 | 05  | 悉达多太子的诞生     | `Dhamma/Attachments/(2026) Buddha's life/Buddha (May) - 005 - The Birth of Prince Siddhartha.png`              |
 | 06  | 阿私陀仙人的预言     | `Dhamma/Attachments/(2026) Buddha's life/Buddha (May) - 006 - The Sage Asita's Prediction.png`                 |
 | 07  | 少年太子的树下禅定    | `Dhamma/Attachments/(2026) Buddha's life/Buddha (May) - 007 - The Young Prince Enters Meditation.png`          |
 | 08  | 悉达多救护受伤的天鹅   | `Dhamma/Attachments/(2026) Buddha's life/Buddha (May) - 008 - Siddhartha Saves the Wounded Swan.png`           |
 | 09  | 太子的技艺与力量     | `Dhamma/Attachments/(2026) Buddha's life/Buddha (May) - 009 - The Prince's Skill and Strength.png`             |
-| 10  | 悉达多与耶输陀罗成婚   | `Dhamma/Attachments/(2026) Buddha's life/Buddha (May) - 010 - The Marriage of Siddhartha and Yasodhara.png`    |
+| 10  | 悉达多与耶输陀罗成婚   | `Dhamma/Attachments/(2026) Buddha's life/Buddha (May) - 010 - The Marriage of Siddhartha and Yasodharā.png`    |
 | 11  | 四门出游与四种相     | `Dhamma/Attachments/(2026) Buddha's life/Buddha (May) - 011 - The Four Sights.png`                             |
 | 12  | 宫中欲乐失去魅力     | `Dhamma/Attachments/(2026) Buddha's life/Buddha (May) - 012 - The Palace Pleasures Lose Their Charm.png`       |
 | 13  | 静默的告别        | `Dhamma/Attachments/(2026) Buddha's life/Buddha (May) - 013 - The Silent Farewell.png`                         |
 | 14  | 伟大的出离        | `Dhamma/Attachments/(2026) Buddha's life/Buddha (May) - 014 - The Great Renunciation.png`                      |
 | 15  | 削发舍弃王相       | `Dhamma/Attachments/(2026) Buddha's life/Buddha (May) - 015 - Cutting the Hair.png`                            |
-| 16  | 跟随阿罗罗迦罗摩学习   | `Dhamma/Attachments/(2026) Buddha's life/Buddha (May) - 016 - Learning from Alara Kalama.png`                  |
-| 17  | 离开阿罗罗迦罗摩     | `Dhamma/Attachments/(2026) Buddha's life/Buddha (May) - 017 - Leaving Alara Kalama.png`                        |
-| 18  | 跟随郁陀迦罗摩子学习   | `Dhamma/Attachments/(2026) Buddha's life/Buddha (May) - 018 - Learning from Uddaka Ramaputta.png`              |
-| 19  | 离开郁陀迦罗摩子     | `Dhamma/Attachments/(2026) Buddha's life/Buddha (May) - 019 - Leaving Uddaka Ramaputta.png`                    |
+| 16  | 跟随阿罗罗迦罗摩学习   | `Dhamma/Attachments/(2026) Buddha's life/Buddha (May) - 016 - Learning from Āḷāra Kālāma.png`                  |
+| 17  | 离开阿罗罗迦罗摩     | `Dhamma/Attachments/(2026) Buddha's life/Buddha (May) - 017 - Leaving Āḷāra Kālāma.png`                        |
+| 18  | 跟随郁陀迦罗摩子学习   | `Dhamma/Attachments/(2026) Buddha's life/Buddha (May) - 018 - Learning from Uddaka Rāmaputta.png`              |
+| 19  | 离开郁陀迦罗摩子     | `Dhamma/Attachments/(2026) Buddha's life/Buddha (May) - 019 - Leaving Uddaka Rāmaputta.png`                    |
 | 20  | 与五位苦行者同修     | `Dhamma/Attachments/(2026) Buddha's life/Buddha (May) - 020 - Siddhartha Practices with the Five Ascetics.png` |
 | 21  | 苦行的极限        | `Dhamma/Attachments/(2026) Buddha's life/Buddha (May) - 021 - The Limits of Austerity.png`                     |
-| 22  | 善生女供养乳糜      | `Dhamma/Attachments/(2026) Buddha's life/Buddha (May) - 022 - Sujata's Offering.png`                           |
+| 22  | 善生女供养乳糜      | `Dhamma/Attachments/(2026) Buddha's life/Buddha (May) - 022 - Sujātā's Offering.png`                           |
 | 23  | 金钵顺流与逆流      | `Dhamma/Attachments/(2026) Buddha's life/Buddha (May) - 023 - The Golden Bowl and the River.png`               |
-| 24  | 魔军来袭         | `Dhamma/Attachments/(2026) Buddha's life/Buddha (May) - 024 - Mara's Army Attacks.png`                         |
-| 25  | 魔女的诱惑        | `Dhamma/Attachments/(2026) Buddha's life/Buddha (May) - 025 - The Temptations of Mara's Daughters.png`         |
+| 24  | 魔军来袭         | `Dhamma/Attachments/(2026) Buddha's life/Buddha (May) - 024 - Māra's Army Attacks.png`                         |
+| 25  | 魔女的诱惑        | `Dhamma/Attachments/(2026) Buddha's life/Buddha (May) - 025 - The Temptations of Māra's Daughters.png`         |
 | 26  | 触地降魔与觉悟      | `Dhamma/Attachments/(2026) Buddha's life/Buddha (May) - 026 - The Earth-Witness and Awakening.png`             |
 | 27  | 目支邻陀龙王护佛     | `Dhamma/Attachments/(2026) Buddha's life/Buddha (May) - 027 - Mucalinda Protects the Buddha.png`               |
-| 28  | 梵天劝请说法       | `Dhamma/Attachments/(2026) Buddha's life/Buddha (May) - 028 - Brahma Requests the Teaching.png`                |
+| 28  | 梵天劝请说法       | `Dhamma/Attachments/(2026) Buddha's life/Buddha (May) - 028 - Brahmā Requests the Teaching.png`                |
 | 29  | 初转法轮         | `Dhamma/Attachments/(2026) Buddha's life/Buddha (May) - 029 - The First Turning of the Wheel.png`              |
-| 30  | 僧团围绕正法建立     | `Dhamma/Attachments/(2026) Buddha's life/Buddha (May) - 030 - The Sangha Gathers Around the Teaching.png`      |
-| 31  | 耶输陀罗再见佛陀     | `Dhamma/Attachments/(2026) Buddha's life/Buddha (May) - 031 - Yasodhara Meets the Buddha Again.png`            |
-| 32  | 佛陀教导罗睺罗      | `Dhamma/Attachments/(2026) Buddha's life/Buddha (May) - 032 - The Buddha Instructs Rahula.png`                 |
-| 33  | 忉利天为母说法      | `Dhamma/Attachments/(2026) Buddha's life/Buddha (May) - 033 - Teaching in Tavatimsa Heaven.png`                |
+| 30  | 僧团围绕正法建立     | `Dhamma/Attachments/(2026) Buddha's life/Buddha (May) - 030 - The Saṅgha Gathers Around the Teaching.png`      |
+| 31  | 耶输陀罗再见佛陀     | `Dhamma/Attachments/(2026) Buddha's life/Buddha (May) - 031 - Yasodharā Meets the Buddha Again.png`            |
+| 32  | 佛陀教导罗睺罗      | `Dhamma/Attachments/(2026) Buddha's life/Buddha (May) - 032 - The Buddha Instructs Rāhula.png`                 |
+| 33  | 忉利天为母说法      | `Dhamma/Attachments/(2026) Buddha's life/Buddha (May) - 033 - Teaching in Tāvatiṃsa Heaven.png`                |
 | 34  | 从天界降下        | `Dhamma/Attachments/(2026) Buddha's life/Buddha (May) - 034 - The Descent from Heaven.png`                     |
-| 35  | 央掘魔罗的转化      | `Dhamma/Attachments/(2026) Buddha's life/Buddha (May) - 035 - Angulimala Is Transformed.png`                   |
-| 36  | 耆婆为佛陀疗足      | `Dhamma/Attachments/(2026) Buddha's life/Buddha (May) - 036 - Jivaka Treats the Buddha's Foot.png`             |
-| 37  | 调伏那罗祇利象      | `Dhamma/Attachments/(2026) Buddha's life/Buddha (May) - 037 - The Taming of Nalagiri.png`                      |
-| 38  | 般涅槃          | `Dhamma/Attachments/(2026) Buddha's life/Buddha (May) - 038 - The Parinibbana.png`                             |
+| 35  | 央掘魔罗的转化      | `Dhamma/Attachments/(2026) Buddha's life/Buddha (May) - 035 - Aṅgulimāla Is Transformed.png`                   |
+| 36  | 耆婆为佛陀疗足      | `Dhamma/Attachments/(2026) Buddha's life/Buddha (May) - 036 - Jīvaka Treats the Buddha's Foot.png`             |
+| 37  | 调伏那罗祇利象      | `Dhamma/Attachments/(2026) Buddha's life/Buddha (May) - 037 - The Taming of Nāḷāgiri.png`                      |
+| 38  | 般涅槃          | `Dhamma/Attachments/(2026) Buddha's life/Buddha (May) - 038 - The Parinibbāna.png`                             |
 
 ## Current Validation Command
 

@@ -11,7 +11,7 @@ tags:
 Tags: Buddha, Dhamma
 
 ## 第01幕 - 燃灯佛前生起大愿
-![Buddha (May) - 001 - The Great Aspiration Before Dipankara Buddha](../assets/images/Buddha%20%28May%29%20-%20001%20-%20The%20Great%20Aspiration%20Before%20Dipankara%20Buddha.png)
+![Buddha (May) - 001 - The Great Aspiration Before Dīpaṅkara Buddha](../assets/images/Buddha%20%28May%29%20-%20001%20-%20The%20Great%20Aspiration%20Before%20Dipankara%20Buddha.png)
 
 在极久远的过去，佛陀还不是释迦牟尼佛，也不是今生的悉达多太子，而是一位名叫善慧的修行者。那时世间已有一位圆满觉悟者，名为燃灯佛。善慧听闻燃灯佛将要到来，心中生起极大的欢喜与敬仰，仿佛看见黑暗世间里出现了一盏不会熄灭的灯。
 
@@ -29,7 +29,7 @@ Tags: Buddha, Dhamma
 善慧听见授记，并不是得到一个轻松的保证，而是得到一条更长、更清楚的道路。从此以后，他继续在无数生中修习布施、持戒、忍辱、精进、禅定与智慧。未来的佛陀不是忽然出现的奇迹，而是从这样的愿、这样的恭敬、这样的长久实践中慢慢成熟。
 
 ## 第03幕 - 摩耶夫人的白象梦
-![Buddha (May) - 003 - Queen Maya's White Elephant Dream](../assets/images/Buddha%20%28May%29%20-%20003%20-%20Queen%20Maya%27s%20White%20Elephant%20Dream.png)
+![Buddha (May) - 003 - Queen Māyā's White Elephant Dream](../assets/images/Buddha%20%28May%29%20-%20003%20-%20Queen%20Maya%27s%20White%20Elephant%20Dream.png)
 
 佛陀最后一生即将开始时，净饭王的王后摩耶夫人做了一个吉梦：一头纯白大象从空中而来，进入她的右胁。梦境宁静而庄严，不像普通纷乱的梦。白象洁净明亮，带着温和而不可思议的力量，仿佛预告一个稀有的生命即将进入人间。
 
@@ -38,7 +38,7 @@ Tags: Buddha, Dhamma
 王宫因此充满期待，也隐隐预感这位孩子的生命不会只是普通王子的命运。清净、庄严、稀有的征兆，像一道安静的光，先照进了他的出生之前。还没有人真正知道他将走向哪里，但故事的气息已经从宫廷的荣耀，转向更深远的觉悟。
 
 ## 第04幕 - 蓝毗尼园中的摩耶夫人
-![Buddha (May) - 004 - Queen Maya in Lumbini Grove](../assets/images/Buddha%20%28May%29%20-%20004%20-%20Queen%20Maya%20in%20Lumbini%20Grove.png)
+![Buddha (May) - 004 - Queen Māyā in Lumbinī Grove](../assets/images/Buddha%20%28May%29%20-%20004%20-%20Queen%20Maya%20in%20Lumbini%20Grove.png)
 
 摩耶夫人按照当时习俗回娘家待产，途中经过蓝毗尼园。园中花木繁盛、环境安宁，旅途的疲惫在树影和微风中稍稍缓和。她在树下停留，伸手扶着枝条，临产的时刻就在这片自然的宁静中到来。
 
@@ -92,7 +92,7 @@ Tags: Buddha, Dhamma
 这也让后来的出离更显得不寻常。他不是因为得不到世间成就而离开，而是在已经具备世间成就的条件下，仍然没有把生命完全交给权力、技巧和荣耀。此时根本的问题还没有清楚显现，但他的人生已经被安排到世间成功的顶点。
 
 ## 第10幕 - 悉达多与耶输陀罗成婚
-![Buddha (May) - 010 - Siddhartha and Yasodhara Are Married](../assets/images/Buddha%20%28May%29%20-%20010%20-%20Siddhartha%20and%20Yasodhara%20Are%20Married.png)
+![Buddha (May) - 010 - Siddhartha and Yasodharā Are Married](../assets/images/Buddha%20%28May%29%20-%20010%20-%20Siddhartha%20and%20Yasodhara%20Are%20Married.png)
 
 悉达多太子与耶输陀罗成婚，王宫生活看似圆满。美丽的伴侣、尊贵的身份、亲人的祝福、未来的王位，以及种种精致的享受，都围绕在他身边。宫廷众人希望这些幸福能让太子的心安定下来，留在他应当继承的位置上。
 
@@ -146,7 +146,7 @@ Tags: Buddha, Dhamma
 天人接住他的发髻，把它视为圣物。从此，他不再靠血统和权势证明自己，而是以修行者的身份，亲身寻找真理。外在的荣耀被放下之后，道路变得朴素，也变得真实。
 
 ## 第16幕 - 跟随阿罗罗迦罗摩学习
-![Buddha (May) - 016 - Learning from Alara Kalama](../assets/images/Buddha%20%28May%29%20-%20016%20-%20Learning%20from%20Alara%20Kalama.png)
+![Buddha (May) - 016 - Learning from Āḷāra Kālāma](../assets/images/Buddha%20%28May%29%20-%20016%20-%20Learning%20from%20Alara%20Kalama.png)
 
 出家后，悉达多并没有立刻自创道路，而是先拜访当时著名的修行老师。阿罗罗迦罗摩教导非常深细的禅定，与“无所有处”相关；若以色界四禅加上四无色定来计算，这就是第七禅。这个境界远离粗重的欲望和普通分别，心不再抓取具体对象，而进入一种极为空旷、安静的状态。
 
@@ -155,7 +155,7 @@ Tags: Buddha, Dhamma
 悉达多没有轻视这段学习。他认真进入老师所教的最高处，也真实知道深定的力量。但当他从定中观察，仍发现这种境界会依条件而生起，也会依条件而消退；它能令心暂时安住，却还没有彻底拔除苦的根。于是，他知道自己必须继续寻找。
 
 ## 第17幕 - 离开阿罗罗迦罗摩
-![Buddha (May) - 017 - Leaving Alara Kalama](../assets/images/Buddha%20%28May%29%20-%20017%20-%20Leaving%20Alara%20Kalama.png)
+![Buddha (May) - 017 - Leaving Āḷāra Kālāma](../assets/images/Buddha%20%28May%29%20-%20017%20-%20Leaving%20Alara%20Kalama.png)
 
 当悉达多达到阿罗罗迦罗摩所教的最高境界后，老师希望他留下来，与自己平等地教导学生。这对一位年轻求道者是极高的认可：他已经有成就、有名望，也有安稳的修行环境。留下来，他可以受到尊敬，也可以成为许多人眼中的大修行者。
 
@@ -164,7 +164,7 @@ Tags: Buddha, Dhamma
 他没有轻慢老师，而是带着感激与恭敬离开。感恩与继续前行并不冲突；正因为他尊重这段学习，才更诚实地承认自己还没有到达终点。真正的求道，有时就是在已经很高的地方，仍然愿意说：这里还不是最后。
 
 ## 第18幕 - 跟随郁陀迦罗摩子学习
-![Buddha (May) - 018 - Learning from Uddaka Ramaputta](../assets/images/Buddha%20%28May%29%20-%20018%20-%20Learning%20from%20Uddaka%20Ramaputta.png)
+![Buddha (May) - 018 - Learning from Uddaka Rāmaputta](../assets/images/Buddha%20%28May%29%20-%20018%20-%20Learning%20from%20Uddaka%20Ramaputta.png)
 
 离开阿罗罗迦罗摩后，悉达多又去跟随郁陀迦罗摩子学习。郁陀迦罗摩子传授的是与“非想非非想处”相关的微细定境；若以色界四禅加上四无色定来计算，这就是第八禅，也是当时禅修体系中的最高层次。它不像普通有想状态那样清楚活动，也不是完全没有知觉，而是处在极难描述的边界。
 
@@ -173,7 +173,7 @@ Tags: Buddha, Dhamma
 他亲身走到深定的最高处，却仍发现这样的境界会因条件而现起，也会因条件而结束。只要它仍依因缘而生，就不是不生不灭的自由；只要无明和渴爱还没有被彻底看破，苦的根就仍可能继续。深定的最高处没有让他停下，反而让他把问题看得更细。
 
 ## 第19幕 - 离开郁陀迦罗摩子
-![Buddha (May) - 019 - Leaving Uddaka Ramaputta](../assets/images/Buddha%20%28May%29%20-%20019%20-%20Leaving%20Uddaka%20Ramaputta.png)
+![Buddha (May) - 019 - Leaving Uddaka Rāmaputta](../assets/images/Buddha%20%28May%29%20-%20019%20-%20Leaving%20Uddaka%20Ramaputta.png)
 
 悉达多掌握郁陀迦罗摩子所代表的最高成就后，也被邀请留下。这时他已经证明自己能够达到当代禅修老师所教的顶峰。若他愿意停在这里，世间会承认他是极稀有的修行者，学生也会围绕在他身边。
 
@@ -200,9 +200,9 @@ Tags: Buddha, Dhamma
 琴弦的譬喻在这里变得清楚：弦太松，弹不出声音；弦太紧，会断裂；只有松紧适中，才能发出清净和谐的音声。悉达多开始离开两端：不回到欲乐，也不再把自我折磨当成解脱。中道不是折中妥协，而是能真正支持智慧生起的道路。
 
 ## 第22幕 - 善生女供养乳糜
-![Buddha (May) - 022 - Sujata's Offering of Milk-Rice](../assets/images/Buddha%20%28May%29%20-%20022%20-%20Sujata%27s%20Offering%20of%20Milk-Rice.png)
+![Buddha (May) - 022 - Sujātā's Offering of Milk-Rice](../assets/images/Buddha%20%28May%29%20-%20022%20-%20Sujata%27s%20Offering%20of%20Milk-Rice.png)
 
-悉达多放弃极端苦行后，身体非常虚弱。长期饥饿让他几乎没有力量继续修行，若再坚持下去，身体只会走向死亡。就在这个转折时刻，善生女 Sujata 带着信心，将乳糜供养给他。
+悉达多放弃极端苦行后，身体非常虚弱。长期饥饿让他几乎没有力量继续修行，若再坚持下去，身体只会走向死亡。就在这个转折时刻，善生女 Sujātā 带着信心，将乳糜供养给他。
 
 他接受了这份食物。五位苦行同伴看到后，以为他退失精进、回到享乐，于是离开他。在他们眼中，修行就应该越苦越好；接受滋养，像是背离了共同坚持多年的道路。
 
@@ -218,7 +218,7 @@ Tags: Buddha, Dhamma
 此时，他既不回到宫廷欲乐，也不再执著自我折磨。他整理身心，准备走向菩提树下，完成最后的观察与觉悟。河水仍向世间的方向流去，而他的心已经转向觉醒。
 
 ## 第24幕 - 魔军来袭
-![Buddha (May) - 024 - Mara's Army Attacks](../assets/images/Buddha%20%28May%29%20-%20024%20-%20Mara%27s%20Army%20Attacks.png)
+![Buddha (May) - 024 - Māra's Army Attacks](../assets/images/Buddha%20%28May%29%20-%20024%20-%20Mara%27s%20Army%20Attacks.png)
 
 悉达多坐在菩提树下，发愿若不证悟便不起座。夜色渐深，最后的考验也随之到来。魔罗率领魔军前来，试图以风暴、兵器、怪相和威胁动摇他，让他离开觉悟之座。
 
@@ -227,7 +227,7 @@ Tags: Buddha, Dhamma
 可是悉达多的心已经稳固，不用嗔恨回应攻击，也不被恐惧拖走。飞来的武器在他面前化为花雨，魔军的威吓无法进入他的心。夜色之中，他继续安坐，守住最后一段通向觉悟的道路。
 
 ## 第25幕 - 魔女的诱惑
-![Buddha (May) - 025 - The Temptations of Mara's Daughters](../assets/images/Buddha%20%28May%29%20-%20025%20-%20The%20Temptations%20of%20Mara%27s%20Daughters.png)
+![Buddha (May) - 025 - The Temptations of Māra's Daughters](../assets/images/Buddha%20%28May%29%20-%20025%20-%20The%20Temptations%20of%20Mara%27s%20Daughters.png)
 
 魔军不能动摇悉达多后，魔罗又以诱惑来试探他。魔女显现美丽、柔情、青春和欲乐，试图让他的心重新追逐感官满足。相比风暴和武器，诱惑往往更细腻，也更容易让人误以为那就是幸福。
 
@@ -254,7 +254,7 @@ Tags: Buddha, Dhamma
 自然界仿佛也在护持这位刚刚觉悟的世尊，让他在雨中安住于清凉、寂静与自在。风雨没有消失，但风雨不再成为扰乱。这个画面安静地显示：解脱不是改造整个世界，而是在世界的变化中不再被烦恼吞没。
 
 ## 第28幕 - 梵天劝请说法
-![Buddha (May) - 028 - Brahma Requests the Teaching](../assets/images/Buddha%20%28May%29%20-%20028%20-%20Brahma%20Requests%20the%20Teaching.png)
+![Buddha (May) - 028 - Brahmā Requests the Teaching](../assets/images/Buddha%20%28May%29%20-%20028%20-%20Brahma%20Requests%20the%20Teaching.png)
 
 佛陀成道后，思惟自己所证之法非常深细，逆着世间习惯。众生贪著欲乐，执著自我，习惯向外追求，很难理解缘起、无常和无我。若把这样深的法说出来，会不会无人能懂？会不会只是徒增困惑？
 
@@ -272,7 +272,7 @@ Tags: Buddha, Dhamma
 接着，佛陀宣说四圣谛：生命中有苦；苦有原因，主要是渴爱与无明；苦可以止息；有一条道路通向止息。憍陈如首先理解，生起法眼，成为最早证悟的弟子之一。法轮由此转动，佛陀的觉悟开始成为众生可以进入的道路。
 
 ## 第30幕 - 僧团围绕正法建立
-![Buddha (May) - 030 - The Sangha Gathers Around the Teaching](../assets/images/Buddha%20%28May%29%20-%20030%20-%20The%20Sangha%20Gathers%20Around%20the%20Teaching.png)
+![Buddha (May) - 030 - The Saṅgha Gathers Around the Teaching](../assets/images/Buddha%20%28May%29%20-%20030%20-%20The%20Sangha%20Gathers%20Around%20the%20Teaching.png)
 
 佛陀开始游行说法后，越来越多人听闻正法，生起信心，出家修行。早期僧团逐渐形成，弟子来自不同背景：有婆罗门、王族、商人、贫苦者，也有曾经迷失或痛苦很深的人。佛法不只属于某一种身份的人，而向所有愿意修行的人开放。
 
@@ -281,7 +281,7 @@ Tags: Buddha, Dhamma
 佛陀的觉悟不再只是一个人的内在证悟，而成为一个活生生的修行共同体。道路有人走，教法也就有了可以被保存和传承的身体。僧团的出现，让佛法从一次觉悟，变成世间可以持续依靠的道路。
 
 ## 第31幕 - 给孤独长者买下祇园
-![Buddha (May) - 031 - Anathapindika Buys Jetavana](../assets/images/Buddha%20%28May%29%20-%20031%20-%20Anathapindika%20Buys%20Jetavana.png)
+![Buddha (May) - 031 - Anāthapiṇḍika Buys Jetavana](../assets/images/Buddha%20%28May%29%20-%20031%20-%20Anathapindika%20Buys%20Jetavana.png)
 
 佛陀的教法渐渐传开后，有一位名叫给孤独的长者听闻正法，心中生起极深的信心。他不是出家人，却看见僧团需要一个安稳的住处，让佛陀和弟子们可以安居、说法、修行，也让在家人有地方亲近正法。
 
@@ -290,7 +290,7 @@ Tags: Buddha, Dhamma
 祇陀太子见到这份信心，也被感动，愿意共同成就这座精舍。后来祇园精舍成为佛陀长期说法的重要地方。许多教法不是在宏大的宫殿中流传，而是在这样的林园、树影、僧众与信众往来之间，慢慢进入人间。
 
 ## 第32幕 - 耶输陀罗再见佛陀
-![Buddha (May) - 032 - Yasodhara Meets the Buddha Again](../assets/images/Buddha%20%28May%29%20-%20032%20-%20Yasodhara%20Meets%20the%20Buddha%20Again.png)
+![Buddha (May) - 032 - Yasodharā Meets the Buddha Again](../assets/images/Buddha%20%28May%29%20-%20032%20-%20Yasodhara%20Meets%20the%20Buddha%20Again.png)
 
 佛陀成道后回到迦毗罗卫，多年分别后，耶输陀罗再次见到他。她曾经历丈夫离去、独自养育罗睺罗、承受宫廷与世人的眼光。那些年里，她不是故事边缘的影子，而是真实承受离别的人。
 
@@ -299,7 +299,7 @@ Tags: Buddha, Dhamma
 佛陀的觉悟没有绕开这些人间关系，也没有否认她曾经承受的孤独。那段痛被带到更大的视野中：无常不是理论，离别不是抽象，放下也不是轻飘飘的一句话。佛法就在真实情感中，慢慢显出宽广、尊重与解脱的方向。
 
 ## 第33幕 - 佛陀教导罗睺罗
-![Buddha (May) - 033 - The Buddha Instructs Rahula](../assets/images/Buddha%20%28May%29%20-%20033%20-%20The%20Buddha%20Instructs%20Rahula.png)
+![Buddha (May) - 033 - The Buddha Instructs Rāhula](../assets/images/Buddha%20%28May%29%20-%20033%20-%20The%20Buddha%20Instructs%20Rahula.png)
 
 罗睺罗是佛陀的儿子，后来出家成为沙弥。佛陀教导他时，不是先讲玄妙理论，而是从非常实际的品格开始：诚实和反省。一个年少的修行者若不能诚实面对自己，再高的道理也很难真正落地。
 
@@ -308,7 +308,7 @@ Tags: Buddha, Dhamma
 佛陀也教他像照镜子一样观察身口意：做之前、做的时候、做之后，都要看这件事是否伤害自己、伤害他人，或同时伤害双方。若有害，应当停止并忏悔；若无害且有益，应当继续。父子之间的教导，在这里变成了最朴素、也最踏实的修行起点。
 
 ## 第34幕 - 摩诃波阇波提与比丘尼僧团
-![Buddha (May) - 034 - Mahapajapati Gotami and the Bhikkhuni Sangha](../assets/images/Buddha%20%28May%29%20-%20034%20-%20Mahapajapati%20Gotami%20and%20the%20Bhikkhuni%20Sangha.png)
+![Buddha (May) - 034 - Mahāpajāpatī Gotamī and the Bhikkhunī Saṅgha](../assets/images/Buddha%20%28May%29%20-%20034%20-%20Mahapajapati%20Gotami%20and%20the%20Bhikkhuni%20Sangha.png)
 
 摩诃波阇波提是摩耶夫人的妹妹，也是悉达多太子出生后抚养他的姨母。佛陀成道后，她也渴望进入出家修行的道路。她不是只以亲属身份亲近佛陀，而是以一个真诚求解脱的人，请求在正法中修行。
 
@@ -317,7 +317,7 @@ Tags: Buddha, Dhamma
 后来，比丘尼僧团建立，摩诃波阇波提成为其中重要的开端。她的身影把佛陀的一生与女性修行者的道路连在一起。佛法在这里显出更宽广的面貌：无论出身、性别、家族身份如何，只要愿意修行，都可以向解脱走去。
 
 ## 第35幕 - 忉利天为母说法
-![Buddha (May) - 035 - Teaching in Tavatimsa Heaven](../assets/images/Buddha%20%28May%29%20-%20035%20-%20Teaching%20in%20Tavatimsa%20Heaven.png)
+![Buddha (May) - 035 - Teaching in Tāvatiṃsa Heaven](../assets/images/Buddha%20%28May%29%20-%20035%20-%20Teaching%20in%20Tavatimsa%20Heaven.png)
 
 佛陀上升忉利天，为已生天界的母亲摩耶夫人说法，也向天众开示甚深法义。摩耶夫人在他出生后不久便离开人间，母子之间在人间相处的时间很短；如今佛陀以觉者的身份，为母亲说法，报答生育之恩。
 
@@ -335,7 +335,7 @@ Tags: Buddha, Dhamma
 智慧若只停在高处，众生难以靠近。佛陀的慈悲，是不断回到众生所在之处，把深远的觉悟变成可以被听见、被实践、被传承的教法。宝阶的庄严，最后落在人间的道路上。
 
 ## 第37幕 - 央掘魔罗的转化
-![Buddha (May) - 037 - Angulimala Is Transformed](../assets/images/Buddha%20%28May%29%20-%20037%20-%20Angulimala%20Is%20Transformed.png)
+![Buddha (May) - 037 - Aṅgulimāla Is Transformed](../assets/images/Buddha%20%28May%29%20-%20037%20-%20Angulimala%20Is%20Transformed.png)
 
 央掘魔罗曾是令人恐惧的杀人者，名字意为“指鬘”，他以受害者手指作鬘。人们听见他的名字便害怕，远远避开他所在的道路。这样的一个人，似乎已经被暴力和恶名完全吞没。
 
@@ -344,7 +344,7 @@ Tags: Buddha, Dhamma
 这里的停下不是脚步停止，而是停止杀害、停止嗔恨、停止被无明驱使。央掘魔罗受到震动，放下武器，后来出家修行。一个曾经令人恐惧的人，也能在真正停下之后重新开始。佛法的力量，不只是安慰善良的人，也能把迷失极深的人带回清醒。
 
 ## 第38幕 - 耆婆为佛陀疗足
-![Buddha (May) - 038 - Jivaka Treats the Buddha's Foot](../assets/images/Buddha%20%28May%29%20-%20038%20-%20Jivaka%20Treats%20the%20Buddha%27s%20Foot.png)
+![Buddha (May) - 038 - Jīvaka Treats the Buddha's Foot](../assets/images/Buddha%20%28May%29%20-%20038%20-%20Jivaka%20Treats%20the%20Buddha%27s%20Foot.png)
 
 提婆达多因嫉妒和竞争心，曾多次试图伤害佛陀。他推下巨石，石片伤到佛陀的脚。佛陀虽然觉悟，但身体仍是因缘和合的色身，会疼痛、会流血、会需要治疗。觉悟并不把身体变成不会受伤的神物。
 
@@ -353,7 +353,7 @@ Tags: Buddha, Dhamma
 他接受治疗时，仍保持慈悲，没有因受伤而生起怨恨或报复心。身体会受伤，心却不必被伤害牵着走。这里让人看见，解脱不是没有痛感，而是在痛感中不再加上嗔恨、恐惧和“为什么是我”的执著。
 
 ## 第39幕 - 调伏那罗祇利象
-![Buddha (May) - 039 - The Taming of Nalagiri](../assets/images/Buddha%20%28May%29%20-%20039%20-%20The%20Taming%20of%20Nalagiri.png)
+![Buddha (May) - 039 - The Taming of Nāḷāgiri](../assets/images/Buddha%20%28May%29%20-%20039%20-%20The%20Taming%20of%20Nalagiri.png)
 
 提婆达多又设计放出狂象那罗祇利，希望它冲撞佛陀。狂象奔来时，众人惊恐逃避，街道上充满混乱和呼喊。面对这样失控的力量，普通反应不是逃跑，就是以更强的力量对抗。
 
@@ -371,7 +371,7 @@ Tags: Buddha, Dhamma
 后来佛陀还特别嘱咐阿难，要安慰纯陀，不要让他懊悔。因为供养佛陀成道前的最后一餐，和供养佛陀般涅槃前的最后一餐，都有极大的福德。佛陀在病痛中仍保护供养者的心，让这场最后供养不落入恐惧和自责，而留在信心与慈悲之中。
 
 ## 第41幕 - 病中前往拘尸那罗
-![Buddha (May) - 041 - The Final Journey to Kusinara](../assets/images/Buddha%20%28May%29%20-%20041%20-%20The%20Final%20Journey%20to%20Kusinara.png)
+![Buddha (May) - 041 - The Final Journey to Kusinārā](../assets/images/Buddha%20%28May%29%20-%20041%20-%20The%20Final%20Journey%20to%20Kusinara.png)
 
 病痛发作后，佛陀没有立刻停下。他身体虚弱，仍与阿难和僧众继续前往拘尸那罗。道路尘土朴素，远处只是一个不起眼的小城，没有王宫的盛大，也没有世人想象中英雄谢幕的辉煌场面。
 
@@ -380,7 +380,7 @@ Tags: Buddha, Dhamma
 阿难曾觉得拘尸那罗太小、太偏僻，不适合世尊最后般涅槃。可是佛陀没有把生命的终点系在城市的大小和世间的荣耀上。无论是大城还是小镇，凡是因缘和合的事物都在流逝；而正法的尊贵，不需要依靠外在场面的宏大来证明。
 
 ## 第42幕 - 般涅槃
-![Buddha (May) - 042 - The Parinibbana](../assets/images/Buddha%20%28May%29%20-%20042%20-%20The%20Parinibbana.png)
+![Buddha (May) - 042 - The Parinibbāna](../assets/images/Buddha%20%28May%29%20-%20042%20-%20The%20Parinibbana.png)
 
 佛陀到达拘尸那罗后，在娑罗双树之间右胁而卧。这个地方并不显赫，却在最后一夜成为无数弟子忆念的圣地。树上花朵在不合时节中开放、飘落，僧众围绕在旁，有人忍不住悲伤，有人努力安住正念；陪伴他们多年的导师，正在示现一切有为法共同的归向。
 

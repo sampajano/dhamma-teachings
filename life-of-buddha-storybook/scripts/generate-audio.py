@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Generate per-scene MP3 narration for the English Buddha storybook."""
+"""Generate per-scene MP3 narration for the Buddha storybook."""
 
 from __future__ import annotations
 
@@ -7,61 +7,55 @@ import argparse
 from concurrent.futures import ThreadPoolExecutor, as_completed
 import json
 import os
-import re
 import sys
 import time
 import urllib.error
 import urllib.request
 from pathlib import Path
 
+from storybook_tools import parse_scenes
 
 PROJECT = Path(__file__).resolve().parents[1]
-SOURCE = PROJECT / "content/the-life-of-the-buddha-picture-storybook.en.md"
-OUT_DIR = PROJECT / "assets/audio"
+DEFAULT_EN_SOURCE = PROJECT / "content/the-life-of-the-buddha-picture-storybook.en.md"
+DEFAULT_ZH_SOURCE = PROJECT / "content/the-life-of-the-buddha-picture-storybook.zh.md"
+DEFAULT_EN_OUT_DIR = PROJECT / "assets/audio"
+DEFAULT_ZH_OUT_DIR = PROJECT / "assets/audio/zh"
 MODEL = "gpt-4o-mini-tts"
 VOICE = "cedar"
 RESPONSE_FORMAT = "mp3"
-INSTRUCTIONS = (
+EN_INSTRUCTIONS = (
     "Read as a calm, mature male narrator with warmth, depth, and reverence. "
     "The pacing should be unhurried and clear, suitable for a contemplative "
     "storybook about the life of the Buddha. Avoid theatrical drama; keep the "
     "tone gentle, grounded, and spacious."
 )
+ZH_INSTRUCTIONS = (
+    "Read in clear, natural Mandarin Chinese as a calm, mature male narrator "
+    "with warmth, depth, and reverence. The pacing should be unhurried and "
+    "suitable for a contemplative storybook about the life of the Buddha. "
+    "Avoid theatrical drama; keep the tone gentle, grounded, and spacious."
+)
 
 
-def parse_scenes() -> list[dict[str, str]]:
-    text = SOURCE.read_text(encoding="utf-8")
-    pattern = re.compile(
-        r"^## Scene (\d{2}) - (.+?)\n!\[.*?\]\(.+?\)\n\n(.*?)(?=\n## Scene \d{2} - |\Z)",
-        re.S | re.M,
-    )
-    scenes = []
-    for number, title, body in pattern.findall(text):
-        scenes.append(
-            {
-                "number": number,
-                "title": title.strip(),
-                "body": body.strip(),
-            }
-        )
-    if len(scenes) != 42:
-        raise RuntimeError(f"Expected 42 scenes, found {len(scenes)}")
-    return scenes
-
-
-def output_path(scene: dict[str, str]) -> Path:
+def output_path(scene: dict[str, object], out_dir: Path) -> Path:
     number = f"{int(scene['number']):03d}"
-    return OUT_DIR / f"Buddha (May) - {number} - {scene['title']} - cedar.mp3"
+    return out_dir / f"Buddha (May) - {number} - {scene['title']} - cedar.mp3"
 
 
-def request_speech(scene: dict[str, str], api_key: str) -> bytes:
+def request_speech(scene: dict[str, object], api_key: str, language: str) -> bytes:
     scene_number = int(scene["number"])
-    input_text = f"Scene {scene_number}. {scene['title']}.\n\n{scene['body']}"
+    body = "\n\n".join(str(paragraph) for paragraph in scene["paragraphs"])
+    if language == "zh":
+        input_text = f"第{scene_number}幕。{scene['title']}。\n\n{body}"
+        instructions = ZH_INSTRUCTIONS
+    else:
+        input_text = f"Scene {scene_number}. {scene['title']}.\n\n{body}"
+        instructions = EN_INSTRUCTIONS
     payload = {
         "model": MODEL,
         "voice": VOICE,
         "input": input_text,
-        "instructions": INSTRUCTIONS,
+        "instructions": instructions,
         "response_format": RESPONSE_FORMAT,
     }
     data = json.dumps(payload).encode("utf-8")
@@ -89,11 +83,17 @@ def request_speech(scene: dict[str, str], api_key: str) -> bytes:
     raise RuntimeError(f"Failed to generate scene {scene['number']}")
 
 
-def generate_one(scene: dict[str, str], api_key: str, overwrite: bool) -> str:
-    target = output_path(scene)
+def generate_one(
+    scene: dict[str, object],
+    api_key: str,
+    overwrite: bool,
+    out_dir: Path,
+    language: str,
+) -> str:
+    target = output_path(scene, out_dir)
     if target.exists() and not overwrite:
         return f"skip {scene['number']} {target.name}"
-    audio = request_speech(scene, api_key)
+    audio = request_speech(scene, api_key, language)
     target.write_bytes(audio)
     return f"wrote {scene['number']} {target.name} ({len(audio):,} bytes)"
 
@@ -105,6 +105,9 @@ def main() -> int:
         action="append",
         help="Generate only a specific scene number, such as 01. May be repeated.",
     )
+    parser.add_argument("--language", choices=["en", "zh"], default="en")
+    parser.add_argument("--source", type=Path, help="Markdown source file.")
+    parser.add_argument("--out-dir", type=Path, help="Output directory for MP3 files.")
     parser.add_argument("--overwrite", action="store_true", help="Regenerate existing MP3 files.")
     parser.add_argument("--concurrency", type=int, default=1, help="Number of parallel API requests.")
     parser.add_argument("--sleep", type=float, default=0.25, help="Pause between API requests.")
@@ -115,22 +118,28 @@ def main() -> int:
         print("OPENAI_API_KEY is not set", file=sys.stderr)
         return 2
 
+    source = args.source or (DEFAULT_ZH_SOURCE if args.language == "zh" else DEFAULT_EN_SOURCE)
+    out_dir = args.out_dir or (DEFAULT_ZH_OUT_DIR if args.language == "zh" else DEFAULT_EN_OUT_DIR)
     requested = {f"{int(scene):02d}" for scene in args.scene or []}
-    scenes = [scene for scene in parse_scenes() if not requested or scene["number"] in requested]
-    OUT_DIR.mkdir(parents=True, exist_ok=True)
+    scenes = [
+        scene
+        for scene in parse_scenes(source, args.language)
+        if not requested or scene["number"] in requested
+    ]
+    out_dir.mkdir(parents=True, exist_ok=True)
 
     concurrency = max(1, args.concurrency)
     if concurrency == 1:
         for scene in scenes:
             print(f"start {scene['number']} {scene['title']}", flush=True)
-            print(generate_one(scene, api_key, args.overwrite), flush=True)
+            print(generate_one(scene, api_key, args.overwrite, out_dir, args.language), flush=True)
             time.sleep(args.sleep)
         return 0
 
     failures = []
     with ThreadPoolExecutor(max_workers=concurrency) as executor:
         futures = {
-            executor.submit(generate_one, scene, api_key, args.overwrite): scene
+            executor.submit(generate_one, scene, api_key, args.overwrite, out_dir, args.language): scene
             for scene in scenes
         }
         for future in as_completed(futures):
