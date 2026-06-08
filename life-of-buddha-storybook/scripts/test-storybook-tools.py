@@ -204,6 +204,40 @@ def test_mobile_reader_controls_can_yield_to_story_text():
     assert "scheduleControlsAutoHide" in html
 
 
+def test_rendered_html_can_open_to_page_from_query_or_hash():
+    tools = load_tools()
+    scenes = tools.parse_scenes(
+        PROJECT / "content/the-life-of-the-buddha-picture-storybook.zh.md",
+        "zh",
+    )
+
+    html = tools.render_html(
+        scenes=scenes,
+        language="zh-Hans",
+        book_title="佛陀的一生",
+        page_title="佛陀的一生 - 图像故事书",
+        scene_label="第",
+        scene_suffix="幕",
+        scene_select_label="场景",
+        previous_label="← 上一幕",
+        next_label="下一幕 →",
+        play_label="▶ 播放",
+        pause_label="⏸ 暂停",
+        continuous_label="连续播放",
+        beginning_label="开始",
+        progress_end_label="觉悟之路展开",
+        asset_prefix="../",
+        audio_dir="../assets/audio/zh",
+    )
+
+    assert "function pageNumberFromUrl()" in html
+    assert "new URLSearchParams(window.location.search).get('page')" in html
+    assert "window.location.hash.match(/^#(\\d+)$/)" in html
+    assert "function initialSceneIndex()" in html
+    assert "return Math.max(0, Math.min(scenes.length - 1, pageNumber - 1));" in html
+    assert "render(initialSceneIndex());" in html
+
+
 def test_write_html_creates_parent_directory():
     tools = load_tools()
     with tempfile.TemporaryDirectory() as tmp:
@@ -219,6 +253,7 @@ if __name__ == "__main__":
         test_audio_narration_simplifies_mara_daughters_pali_names,
         test_build_chinese_html_uses_local_audio_and_page_copy,
         test_mobile_reader_controls_can_yield_to_story_text,
+        test_rendered_html_can_open_to_page_from_query_or_hash,
         test_write_html_creates_parent_directory,
     ]
     for test in tests:

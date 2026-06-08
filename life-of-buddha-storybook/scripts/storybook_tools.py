@@ -266,6 +266,18 @@ def render_html(
       return labels.progressEnd;
     }}
 
+    function pageNumberFromUrl() {{
+      const queryPage = new URLSearchParams(window.location.search).get('page');
+      const hashPage = window.location.hash.match(/^#(\\d+)$/)?.[1];
+      const pageNumber = Number(queryPage || hashPage);
+      return Number.isInteger(pageNumber) && pageNumber > 0 ? pageNumber : 1;
+    }}
+
+    function initialSceneIndex() {{
+      const pageNumber = pageNumberFromUrl();
+      return Math.max(0, Math.min(scenes.length - 1, pageNumber - 1));
+    }}
+
     function isMobileLayout() {{
       return window.matchMedia('(max-width: 900px)').matches;
     }}
@@ -417,7 +429,7 @@ def render_html(
     }});
 
     renderOptions();
-    render(0);
+    render(initialSceneIndex());
     window.storybook = {{ render, scenes }};
   </script>
 </body>
