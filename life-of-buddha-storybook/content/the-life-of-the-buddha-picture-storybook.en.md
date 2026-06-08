@@ -23,9 +23,9 @@ In that act of reverence, a vast direction formed in his heart. One day, he too 
 
 When Dīpaṅkara Buddha came to a muddy stretch of road, Sumedha saw that the ground was wet and difficult to cross. He lay down in the mud and spread out his hair, wishing that the Buddha might pass without stepping into the mire. The gesture was not grand in outward appearance, but it was complete: he was willing to place his own body under the path of the Awakened One.
 
-In that moment, his aspiration became clear and firm. He too would undertake long practice, perfect the qualities needed for Buddhahood, and benefit beings as Dīpaṅkara Buddha had done. Seeing Sumedha's faith, resolve, and future capacity, Dīpaṅkara Buddha gave him a prophecy: after long cultivation and the fulfillment of the perfections, he would one day become Gotama Buddha.
+In that moment, his aspiration became clear and firm. He too would undertake long practice, perfect the qualities needed for Buddhahood, and benefit beings as Dīpaṅkara Buddha had done. Dīpaṅkara Buddha did not hand him a promise; with a Buddha's knowledge of causes and future results, he saw Sumedha's faith, resolve, and capacity, and declared that after long cultivation and the fulfillment of the perfections, Sumedha would one day become Gotama Buddha.
 
-Sumedha did not receive an easy promise, but a long and lucid path. From then on, through countless lives, he cultivated generosity, virtue, patience, energy, meditation, and wisdom. A Buddha does not appear as a sudden miracle. Such awakening slowly matures through aspiration, reverence, and long practice.
+Sumedha did not make an easy vow, nor did he receive a shortcut from another. His own intention opened onto a long and lucid path. From then on, through countless lives, he cultivated generosity, virtue, patience, energy, meditation, and wisdom. A Buddha does not appear as a sudden miracle. Such awakening slowly matures through aspiration, reverence, and long practice.
 
 ## Scene 03 - Queen Māyā's White Elephant Dream
 ![Buddha (May) - 003 - Queen Māyā's White Elephant Dream](../assets/images/Buddha%20%28May%29%20-%20003%20-%20Queen%20Maya%27s%20White%20Elephant%20Dream.png)
