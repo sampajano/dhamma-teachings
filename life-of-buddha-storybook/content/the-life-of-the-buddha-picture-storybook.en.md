@@ -41,14 +41,14 @@ The palace filled with expectation, and also with the sense that this child's li
 
 Following the custom of the time, Queen Māyā set out toward her family home to give birth. On the way, she passed through Lumbinī Grove. The trees were full of flowers, the surroundings were peaceful, and the weariness of travel softened beneath shade and breeze. She paused beneath a tree, reached for a branch, and the moment of birth arrived in that natural stillness.
 
-This scene is not far removed from human life. There is a mother's body, the labor before birth, attendants keeping watch, and the gentle light of a garden. The future Buddha did not enter the world by bypassing human life. He was born, grew, learned, loved, and lived within the limits shared by human beings.
+Nothing here is far removed from human life. There is a mother's body, the labor before birth, attendants keeping watch, and the gentle light of a garden. The future Buddha did not enter the world by bypassing human life. He was born, grew, learned, loved, and lived within the limits shared by human beings.
 
 Lumbinī therefore became the beginning point of the Buddha's final life. The path to awakening did not turn away from life itself. It began with birth, with the body, with a mother's care, and with the changing conditions of the human world.
 
 ## Scene 05 - The Birth of Prince Siddhartha
 ![Buddha (May) - 005 - The Birth of Prince Siddhartha](../assets/images/Buddha%20%28May%29%20-%20005%20-%20The%20Birth%20of%20Prince%20Siddhartha.png)
 
-Prince Siddhartha was born in Lumbinī Grove. After his birth, he took seven steps, with lotus blossoms appearing beneath each foot, and proclaimed that this would be his final birth. Royal relatives, attendants, and devas gathered around the newborn prince, honoring the arrival of a rare being in the world.
+Prince Siddhartha was born in Lumbinī Grove. After his birth, he stood firmly, faced north, took seven steps, and, while a white canopy was held above him, proclaimed that this would be his final birth. Royal relatives, attendants, and devas gathered around the newborn prince, honoring the arrival of a rare being in the world.
 
 His final birth was not merely a title of honor. It pointed toward what he would complete: the ending of wandering on through ignorance and craving. He would still grow as a human child, learn language, know affection, and face uncertainty. But the light of the ending was placed beside the beginning, showing that this life would move toward complete awakening.
 
@@ -93,11 +93,11 @@ That is what makes his later renunciation so striking. He did not leave because 
 ## Scene 10 - Siddhartha and Yasodharā Are Married
 ![Buddha (May) - 010 - Siddhartha and Yasodharā Are Married](../assets/images/Buddha%20%28May%29%20-%20010%20-%20Siddhartha%20and%20Yasodhara%20Are%20Married.png)
 
-Prince Siddhartha married Yasodharā, and palace life seemed complete. A beautiful companion, noble status, the blessings of family, a future throne, and refined pleasures surrounded him. The people of the palace hoped that such happiness would settle his heart and keep him in the place he was expected to inherit.
+Prince Siddhartha married Yasodharā, and palace life seemed complete. A noble companion, honored status, the blessings of family, a future throne, and refined pleasures surrounded him. The people of the palace hoped that such happiness would settle his heart and keep him in the place he was expected to inherit.
 
 At this time, the event that would truly shake the direction of his life had not yet come. He was living inside a happiness that had been protected, arranged, and expected. Those around him believed such a life was already enough, and they wished him to remain within marriage, family, and kingship.
 
-Yasodharā was someone he truly loved and would truly carry in his heart. Palace life was not false; it contained tenderness, responsibility, and human beauty. But this beauty had not yet reached the deepest question of life. Those questions were still like distant clouds, not yet pressing upon him, but later the four sights would make them impossible to avoid.
+Yasodharā was joined to him by real affection, responsibility, and shared life. Palace life was not false; it contained tenderness, duty, and human beauty. But this beauty had not yet reached the deepest question of life. Those questions were still like distant clouds, not yet pressing upon him, but later the four sights would make them impossible to avoid.
 
 ## Scene 11 - The Four Outings and the Four Sights
 ![Buddha (May) - 011 - The Four Outings and the Four Sights](../assets/images/Buddha%20%28May%29%20-%20011%20-%20The%20Four%20Outings%20and%20the%20Four%20Sights.png)
@@ -111,9 +111,9 @@ The fourth sight offered another possibility. The renunciant did not run away fr
 ## Scene 12 - The Palace Pleasures Lose Their Charm
 ![Buddha (May) - 012 - The Palace Pleasures Lose Their Charm](../assets/images/Buddha%20%28May%29%20-%20012%20-%20The%20Palace%20Pleasures%20Lose%20Their%20Charm.png)
 
-After seeing the four sights, Siddhartha returned to the palace. The palace still offered music, dancing, fine food, and beautiful entertainers, hoping he would sink again into pleasure and forget the thought of going forth. By day the palace was bright and splendid, as if everything were saying: stay here; this is happiness.
+After seeing the four sights, Siddhartha returned to the palace. The palace still offered music, dancing, fine food, beauty, and refined entertainments, hoping he would sink again into pleasure and forget the thought of going forth. By day the palace was bright and splendid, as if everything were saying: stay here; this is happiness.
 
-But late at night, when the dancers had fallen asleep, instruments lay scattered, and adornments were disordered, the scene that seemed charming by day revealed another side: fatigue, change, and the body's vulnerability. Siddhartha did not despise these people or blame them. He simply saw the other face of sensual pleasure. Beauty must be maintained; delight becomes tired; when excitement fades, the heart still meets the same emptiness.
+But late at night, when the dancers had fallen asleep, instruments lay scattered, and adornments were disordered, what had seemed charming by day revealed another side: fatigue, change, and the body's vulnerability. Siddhartha did not despise these people or blame them. He simply saw the other face of sensual pleasure. Beauty must be maintained; delight becomes tired; when excitement fades, the heart meets the same hollow repetition again.
 
 Pleasure can intoxicate for a moment, but it cannot resolve fear of aging, sickness, and death. The palace had not become evil. Siddhartha was simply seeing more clearly. What once fascinated him could no longer hide the truth. In the night, the thought of renunciation became irreversible.
 
@@ -192,11 +192,11 @@ This period was not wasted. Siddhartha had to walk to the end of austerity in or
 ## Scene 21 - The Limits of Austerity
 ![Buddha (May) - 021 - The Limits of Austerity](../assets/images/Buddha%20%28May%29%20-%20021%20-%20The%20Limits%20of%20Austerity.png)
 
-After years of austerity, Siddhartha's body became thin and skeletal. His ribs were visible, his strength nearly gone. His breathing was weak, movement was difficult, and the body was like a lute string pulled almost to the breaking point. Others might have looked at such endurance and thought he was very close to liberation.
+After years of austerity, Siddhartha's body became thin and skeletal. His ribs were visible, his strength nearly gone. His breathing was weak, movement was difficult, and his body had been pushed almost to the edge of death. Others might have looked at such endurance and thought he was very close to liberation.
 
 But the closer Siddhartha brought the body to death, the more clearly he saw that pain does not automatically produce wisdom. Self-torment can suppress the expression of desire, but it does not uproot ignorance, conceit, and craving. If the mind still clings to “I am practicing austerity” and “I am achieving,” austerity itself can become another form of self-making.
 
-The image of the lute string became clear here. If the string is too loose, it will not sound; if it is too tight, it will break. Only when it is properly tuned can it make a pure and harmonious sound. Siddhartha began to leave both extremes: he would not return to sensual indulgence, and he would no longer treat self-torture as liberation. The Middle Way was not compromise; it was the path that could truly support the arising of wisdom.
+Then a memory returned to him. When he was young, while his father was occupied with a royal plowing ceremony, he had sat in the cool shade of a rose-apple tree. Secluded from sensual desire and unwholesome states, his mind had entered the first jhāna: a clear and blameless joy, steady and collected. He asked himself why he should fear such happiness when it was not tied to sensual pleasure. With a body brought to collapse, that collected mind could not be sustained. He began to leave both extremes: he would not return to sensual indulgence, and he would no longer treat self-torment as liberation.
 
 ## Scene 22 - Sujātā's Offering of Milk-Rice
 ![Buddha (May) - 022 - Sujātā's Offering of Milk-Rice](../assets/images/Buddha%20%28May%29%20-%20022%20-%20Sujata%27s%20Offering%20of%20Milk-Rice.png)
@@ -210,9 +210,9 @@ But Siddhartha did not eat out of craving for flavor. He understood that the bod
 ## Scene 23 - The Golden Bowl and the River
 ![Buddha (May) - 023 - The Golden Bowl and the River](../assets/images/Buddha%20%28May%29%20-%20023%20-%20The%20Golden%20Bowl%20and%20the%20River.png)
 
-After receiving the milk-rice, Siddhartha went to the Nerañjarā River. He bathed, as though washing away the exhaustion and attachment left by years of austerity. The river flowed onward in the usual direction of the world, while he stood at the bank preparing to walk a path that would no longer follow old habits.
+After receiving the milk-rice and recovering enough strength to continue, Siddhartha went to the Nerañjarā River. He bathed, as though washing away the exhaustion and attachment left by years of austerity. The river flowed onward in the usual direction of the world, while he stood at the bank preparing to walk a path that would no longer follow old habits.
 
-He placed the golden bowl in the river and made an aspiration: if he was about to attain perfect awakening, let the bowl move upstream. The bowl moved against the current, becoming a quiet sign before awakening. The scene is still, yet full of firm strength. He was no longer being pulled by the two extremes.
+He placed the golden bowl in the river and made an aspiration: if he was about to attain perfect awakening, let the bowl move upstream. The bowl moved against the current, becoming a quiet sign before awakening. In that stillness there was firm strength. He was no longer being pulled by the two extremes.
 
 He did not return to palace pleasure, and he did not cling to self-mortification. He gathered body and mind and prepared to go to the Bodhi tree, where the final seeing and awakening would be completed. The river still flowed in the direction of the world, but his heart had turned toward awakening.
 
@@ -228,7 +228,7 @@ But Siddhartha's mind was steady. He did not answer attack with hatred, and he w
 ## Scene 25 - The Temptations of Māra's Daughters
 ![Buddha (May) - 025 - The Temptations of Māra's Daughters](../assets/images/Buddha%20%28May%29%20-%20025%20-%20The%20Temptations%20of%20Mara%27s%20Daughters.png)
 
-When Māra's armies failed to move Siddhartha, Māra tried temptation. His daughters appeared as beauty, tenderness, youth, and sensual delight, trying to make Siddhartha's mind chase pleasure again. Tradition names them Taṇhā (craving or thirst), Aratī (discontent or aversion), and Rāgā (passion or lust). Compared with storms and weapons, temptation is often more subtle, and more easily mistaken for happiness.
+When Māra's armies failed to move Siddhartha, Māra tried temptation. His daughters appeared as beauty, tenderness, youth, and sensual delight, trying to make Siddhartha's mind chase pleasure again. They are named Taṇhā (craving or thirst), Aratī (discontent or aversion), and Rāgā (passion or lust). Compared with storms and weapons, temptation is often more subtle, and more easily mistaken for happiness.
 
 Siddhartha did not suppress them with hatred, and he was not drawn in. He simply saw that these feelings and forms arose and passed away, without any core that could truly be possessed. Beauty changes, pleasure fades, and once desire is satisfied, new desire arises. If the mind runs after them, it never finds rest.
 
@@ -250,7 +250,7 @@ After awakening, the Buddha did not immediately rush to teach. He remained near 
 
 A great storm arose, and the nāga king Mucalinda emerged from the water. He coiled his body around the Buddha and spread his hood above him as shelter. Wind and rain passed fiercely outside, while the Buddha sat unmoved at the center. Conditions still brought heat, cold, wind, rain, and change; yet the awakened heart was no longer carried away by change.
 
-Nature itself seemed to protect the newly awakened Blessed One, allowing him to abide in coolness, silence, and freedom. The storm did not vanish, but it no longer became disturbance. The scene quietly shows that liberation does not mean reshaping the whole world; it means not being swallowed by defilement amid the world's changes.
+Nature itself seemed to protect the newly awakened Blessed One, allowing him to abide in coolness, silence, and freedom. The storm did not vanish, but it no longer became disturbance. Liberation did not mean reshaping the whole world; it meant not being swallowed by defilement amid the world's changes.
 
 ## Scene 28 - Brahmā Requests the Teaching
 ![Buddha (May) - 028 - Brahmā Requests the Teaching](../assets/images/Buddha%20%28May%29%20-%20028%20-%20Brahma%20Requests%20the%20Teaching.png)
@@ -266,9 +266,13 @@ The Buddha surveyed the world with the eye of a Buddha and saw beings of many ki
 
 The Buddha went to the Deer Park and found the five companions who had once practiced austerity with him. At first they thought that accepting milk-rice had been a decline, and their respect was not complete. But when the Buddha approached, they saw his bearing, peace, and purity, and their earlier dismissal naturally fell away. They were willing to sit and listen.
 
-The Buddha taught the Middle Way: not falling into sensual indulgence and not falling into self-torment. This was especially powerful for the five companions, because they had seen Siddhartha take austerity to its limit and had seen him leave that path. The Middle Way was not an untested idea; it had been discovered through lived experience.
+The Buddha taught the Middle Way: not falling into sensual indulgence and not falling into self-torment. This was especially powerful for the five companions, because they had seen Siddhartha take austerity to its limit and had seen him leave that path. The Middle Way was not an untested idea; it had been discovered through lived experience. It gave rise to vision and knowledge, and led toward peace, awakening, and Nibbāna.
 
-Then he taught the Four Noble Truths: there is suffering; suffering has a cause, especially craving and ignorance; suffering can cease; and there is a path leading to its cessation. Koṇḍañña understood first and gained the vision of Dhamma. The wheel of Dhamma began to turn, and the Buddha's awakening became a road others could enter.
+Then he unfolded the Four Noble Truths. Life bound by clinging is marked by suffering: birth, aging, illness, death, separation, frustration, and the burden of grasping at the five aggregates. The origin of suffering is craving, the thirst that looks for delight and becoming again and again. The cessation of suffering is the fading away and relinquishing of that craving. And the way to that cessation is a path to be practiced, not merely a teaching to admire.
+
+That path is the Noble Eightfold Path: right view, right intention, right speech, right action, right livelihood, right effort, right mindfulness, and right concentration. It trains understanding, conduct, and collectedness together, so wisdom can see clearly and the heart can be freed.
+
+This teaching was not a sorrowful view of life, but a physician's clear diagnosis and cure. The Buddha showed suffering so that it could be understood, craving so it could be abandoned, cessation so it could be realized, and the path so it could be developed. Koṇḍañña understood first and gained the vision of Dhamma: whatever is subject to arising is subject to cessation. The wheel of Dhamma began to turn, and the Buddha's awakening became a road others could enter.
 
 ## Scene 30 - The Saṅgha Gathers Around the Teaching
 ![Buddha (May) - 030 - The Saṅgha Gathers Around the Teaching](../assets/images/Buddha%20%28May%29%20-%20030%20-%20The%20Sangha%20Gathers%20Around%20the%20Teaching.png)
@@ -293,7 +297,7 @@ Seeing such faith, Prince Jeta was moved and helped bring the monastery into bei
 
 After awakening, the Buddha returned to Kapilavatthu, and after years of separation, Yasodharā saw him again. She had lived through her husband's departure, raised Rāhula, and borne the gaze of the palace and the world. She was not a shadow at the edge of the story, but a person who truly carried the pain of separation.
 
-The one standing before her was not only her former husband. He was an awakened one who had gone beyond ordinary identity. Her feelings were therefore complex: love, hurt, sorrow, and reverence all arose together. Their meeting did not erase the past. It allowed all the pain of those years to appear in that moment.
+The one standing before her was not only her former husband. He was an awakened one who had gone beyond ordinary identity. Her feelings were therefore complex: love, sorrow, the weight of separation, and reverence all arose together. Their meeting did not erase the past. It allowed the pain of those years to appear in that moment.
 
 The Buddha's awakening did not bypass human relationships, nor did it deny the loneliness she had carried. That pain was brought into a wider view. Impermanence was not an idea; separation was not abstract; letting go was not a light phrase. In real feeling, the Dhamma began to show breadth, respect, and the direction of freedom.
 
@@ -347,9 +351,9 @@ The stopping was not about feet on the road. It meant stopping killing, stopping
 
 Driven by jealousy and rivalry, Devadatta tried more than once to harm the Buddha. He sent a great rock down from above, and a splinter injured the Buddha's foot. Though the Buddha was awakened, his body was still a conditioned body. It could feel pain, bleed, and require care. Awakening did not turn the body into an invulnerable divine object.
 
-The physician Jīvaka Komārabhacca came to treat the wound, cleaning it, applying medicine, and binding it. The scene is quiet and very real: an awakened one sits and receives care, while a physician uses his skill to tend suffering. The Buddha did not reject the body's needs, and bodily injury did not disturb the steadiness of his mind.
+The physician Jīvaka Komārabhacca came to treat the wound, cleaning it, applying medicine, and binding it. In a quiet and very human moment, an awakened one sat and received care while a physician used his skill to tend suffering. The Buddha did not reject the body's needs, and bodily injury did not disturb the steadiness of his mind.
 
-As he received treatment, he remained compassionate, without hatred or revenge. The body can be injured; the mind need not be dragged by injury. Here we see that liberation does not mean the absence of pain, but the absence of adding anger, fear, and “why me” to pain.
+As he received treatment, he remained compassionate, without hatred or revenge. The body can be injured; the mind need not be dragged by injury. Liberation does not mean the absence of pain, but the absence of adding hatred, fear, and clinging to “me” around pain.
 
 ## Scene 39 - The Taming of Nāḷāgiri
 ![Buddha (May) - 039 - The Taming of Nāḷāgiri](../assets/images/Buddha%20%28May%29%20-%20039%20-%20The%20Taming%20of%20Nalagiri.png)

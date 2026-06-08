@@ -5,6 +5,7 @@ from __future__ import annotations
 
 import json
 import re
+import unicodedata
 from pathlib import Path
 from urllib.parse import quote
 
@@ -61,6 +62,9 @@ def _read_style() -> str:
 def _audio_filename(scene: dict[str, object]) -> str:
     number = f"{int(str(scene['number'])):03d}"
     title = str(scene["title"])
+    if not re.search(r"[\u3400-\u9fff]", title):
+        normalized = unicodedata.normalize("NFKD", title)
+        title = "".join(char for char in normalized if not unicodedata.combining(char))
     return f"Buddha (May) - {number} - {title} - cedar.mp3"
 
 
