@@ -109,3 +109,13 @@ Text: At the bottom, include a dark brown/black rectangular gold-trim caption pl
 
 Constraints: Preserve Siddhattha's facial likeness from reference images 1 and 2 as much as possible. Uddaka must not look like Alara; make him middle-aged with dark topknot and brown robe. Use the input images for style and likeness only; do not copy exact scenes. Do not put labels over people's heads. Do not write Buddha or Bodhisatta anywhere. Do not make it a bordered manuscript, cartoon, infographic, chart, or multi-panel collage.
 ```
+
+### Anāthapiṇḍika Buys Jetavana
+
+```text
+Vertical photorealistic storybook scene, ancient India, Jetavana donation. Anathapindika / Sudatta kneels humbly on the ground placing gold coins for Jetavana monastery. He is a mature Indian lay householder in simple off-white cotton robe and plain sash, no crown, no ornate jewelry, no gold bracelets, no heavy necklaces, no jeweled belt. Calm compassionate face, modest posture, sincere faith.
+
+Gold coins cover the ground but the mood is solemn and restrained, not luxurious. Simple workers bring baskets of coins. Prince Jeta stands nearby in restrained royal clothing, moved by the donation. Background: forest grove, simple monastery buildings, a few saffron-robed monks watching respectfully. Warm natural light, reverent atmosphere, realistic cinematic style.
+
+Avoid glamour, palace fashion, fantasy look, excessive ornaments, text, captions, labels, watermark.
+```
