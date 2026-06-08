@@ -116,7 +116,7 @@ def test_audio_narration_simplifies_mara_daughters_pali_names():
     assert "Taṇhā" not in chinese_audio_text
     assert "Aratī" not in chinese_audio_text
     assert "Rāgā" not in chinese_audio_text
-    assert "渴爱、不乐与贪染" in chinese_audio_text
+    assert "贪求、不满与欲爱" in chinese_audio_text
 
 
 def test_build_chinese_html_uses_local_audio_and_page_copy():

@@ -64,7 +64,7 @@ def narration_paragraphs(scene: dict[str, object], language: str) -> list[str]:
             paragraphs = [
                 paragraph.replace(
                     "传统中称她们为 Taṇhā（渴爱、贪求）、Aratī（不乐、不满）与 Rāgā（贪染、欲爱）。",
-                    "传统中称她们象征渴爱、不乐与贪染。",
+                    "传统中称她们象征贪求、不满与欲爱。",
                 )
                 for paragraph in paragraphs
             ]
