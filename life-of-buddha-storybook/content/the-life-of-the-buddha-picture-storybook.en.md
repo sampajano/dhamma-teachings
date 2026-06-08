@@ -187,7 +187,7 @@ After leaving the two teachers, Siddhartha practiced with five ascetic companion
 
 Siddhartha also accepted this direction for a time, and practiced even more severely than the others. He reduced his food, sat for long periods, endured heat, cold, hunger, and thirst, and pushed the body almost to collapse. Seeing his determination and endurance, the five companions respected him and thought he might be the first to reach the goal.
 
-This period was not wasted. Siddhartha had to walk to the end of austerity in order to know that tormenting the body does not automatically give rise to wisdom. His companions witnessed the extremity of his effort. Later, they would become the first to hear the Middle Way because they knew exactly where one of the two extremes led.
+During this period, the five companions came to see Siddhartha's seriousness even more clearly. He was not merely speaking about liberation; he was willing to place comfort, strength, and even life itself into the practice. To them, such austerity seemed to be the path to the goal, and Siddhartha continued along it, pressing himself toward an even deeper test.
 
 ## Scene 21 - The Limits of Austerity
 ![Buddha (May) - 021 - The Limits of Austerity](../assets/images/Buddha%20%28May%29%20-%20021%20-%20The%20Limits%20of%20Austerity.png)
@@ -286,9 +286,9 @@ The Buddha's awakening was no longer only the inner realization of one person. I
 ## Scene 31 - Anāthapiṇḍika Buys Jetavana
 ![Buddha (May) - 031 - Anāthapiṇḍika Buys Jetavana](../assets/images/Buddha%20%28May%29%20-%20031%20-%20Anathapindika%20Buys%20Jetavana.png)
 
-As the Buddha's teaching spread, a lay follower named Anāthapiṇḍika heard the Dhamma and gained deep faith. He was not a monastic, but he saw that the Saṅgha needed a stable place where the Buddha and his disciples could dwell, teach, and practice, and where laypeople could come close to the Dhamma.
+As the Buddha's teaching spread, the lay follower Anāthapiṇḍika heard the Dhamma and gained deep faith. He was not a monastic, but he saw that the Saṅgha needed a stable place where the Buddha and his disciples could dwell, teach, and practice, and where laypeople could come close to the Dhamma. To him, this was not an ordinary gift. It was a condition for the Dhamma to remain in the world, and if such a good work could be accomplished, he was willing to bear whatever cost it required.
 
-He chose Prince Jeta's grove. At first the prince did not wish to sell it, and said he would only give it up if the ground were covered with gold. Anāthapiṇḍika did not turn away. He truly had gold pieces laid across the land. The shining ground was not a display of wealth; it showed his willingness to turn what the world prized toward the support of awakening.
+He chose Prince Jeta's grove. At first the prince did not wish to sell it, and said he would only give it up if the ground were covered with gold. Anāthapiṇḍika did not turn away. He accepted the condition and had cart after cart of gold brought in, laying the pieces across the land. Others may have marveled at the shining ground; for him, the gold was not the point. What mattered was that this grove could become a place where the Buddha taught, the Saṅgha practiced, and countless people came close to the Dhamma.
 
 Seeing such faith, Prince Jeta was moved and helped bring the monastery into being. Jetavana later became one of the Buddha's most important places for teaching. Many teachings were not preserved in grand palaces, but in groves like this, among trees, monks, and lay followers coming and going, as the Dhamma quietly entered human life.
 

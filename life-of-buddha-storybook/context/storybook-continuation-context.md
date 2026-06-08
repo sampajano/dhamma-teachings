@@ -142,7 +142,7 @@ Critical example already fixed:
 
 Scene 16 and 18 terminology:
 
-- Scene 16: Ālāra Kālāma / 阿罗罗迦罗摩 teaches `无所有处`.
+- Scene 16: Ālāra Kālāma / 阿罗逻迦蓝 teaches `无所有处`.
 - In this storybook we call it `第七禅（无所有处）的深定`.
 - Current wording says: `若以色界四禅加上四无色定来计算，这就是第七禅`.
 - Scene 18: Uddaka Rāmaputta / 郁陀迦罗摩子 teaches `非想非非想处`.
@@ -203,8 +203,8 @@ Current scene headings and image embeds:
 | 13  | 静默的告别        | `Dhamma/Attachments/(2026) Buddha's life/Buddha (May) - 013 - The Silent Farewell.png`                         |
 | 14  | 伟大的出离        | `Dhamma/Attachments/(2026) Buddha's life/Buddha (May) - 014 - The Great Renunciation.png`                      |
 | 15  | 削发舍弃王相       | `Dhamma/Attachments/(2026) Buddha's life/Buddha (May) - 015 - Cutting the Hair.png`                            |
-| 16  | 跟随阿罗罗迦罗摩学习   | `Dhamma/Attachments/(2026) Buddha's life/Buddha (May) - 016 - Learning from Āḷāra Kālāma.png`                  |
-| 17  | 离开阿罗罗迦罗摩     | `Dhamma/Attachments/(2026) Buddha's life/Buddha (May) - 017 - Leaving Āḷāra Kālāma.png`                        |
+| 16  | 跟随阿罗逻迦蓝学习   | `Dhamma/Attachments/(2026) Buddha's life/Buddha (May) - 016 - Learning from Āḷāra Kālāma.png`                  |
+| 17  | 离开阿罗逻迦蓝     | `Dhamma/Attachments/(2026) Buddha's life/Buddha (May) - 017 - Leaving Āḷāra Kālāma.png`                        |
 | 18  | 跟随郁陀迦罗摩子学习   | `Dhamma/Attachments/(2026) Buddha's life/Buddha (May) - 018 - Learning from Uddaka Rāmaputta.png`              |
 | 19  | 离开郁陀迦罗摩子     | `Dhamma/Attachments/(2026) Buddha's life/Buddha (May) - 019 - Leaving Uddaka Rāmaputta.png`                    |
 | 20  | 与五位苦行者同修     | `Dhamma/Attachments/(2026) Buddha's life/Buddha (May) - 020 - Siddhartha Practices with the Five Ascetics.png` |
